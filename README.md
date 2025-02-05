@@ -1,10 +1,10 @@
-# InfiniteRecon 🎤
+# InfiniteRecon 
 
 Have you ever wanted to start your ethically dubious surveillance empire? InfiniteRecon is a better Infinity transmitter than the ones old intelligence organizations used to use. This modern take on room monitoring brings high-tech features to your surveillance needs!
 
 InfiniteRecon is a real-time audio streaming and analysis system built using an ESP32-S3 microcontroller with an INMP441 I2S MEMS microphone and a Raspberry Pi server. The system captures ambient room audio, streams it to the Raspberry Pi, and processes it for speech-to-text transcription, speaker identification, and topic-based alerting. A web dashboard running on the Raspberry Pi lets you view live transcriptions and configure alert keywords, SMS notifications, and optional LLM API integration.
 
-## 🌟 Features
+## Features
 
 - **Real-Time Audio Streaming:**  
   Streams raw 16-bit PCM audio at 16 kHz from the ESP32-S3 to the Raspberry Pi over TCP.
@@ -19,7 +19,7 @@ InfiniteRecon is a real-time audio streaming and analysis system built using an 
 - **LLM API Integration:**  
   Optionally integrates with LLM providers (OpenAI, DeepSeek, Anthropic) to enrich transcriptions. Easily toggle LLM usage and select the provider via the dashboard.
 
-## 🛠️ Hardware Components
+## Hardware Components
 
 - **ESP32-S3 Microcontroller:**  
   Captures audio from the INMP441 microphone and streams it over Wi-Fi.
@@ -28,7 +28,7 @@ InfiniteRecon is a real-time audio streaming and analysis system built using an 
 - **Raspberry Pi:**  
   Receives audio, performs speech-to-text conversion, and hosts the web dashboard.
 
-## 💻 Software Components
+## Software Components
 
 ### Project Structure
 ```
@@ -64,7 +64,7 @@ infiniterecon/
   - **Web Dashboard:**  
     Real-time monitoring and configuration interface
 
-## 🚀 Setup Instructions
+## Setup Instructions
 
 ### 1. Hardware Setup
 - Wire the INMP441 microphone to ESP32-S3 (pinout details coming soon)
@@ -114,14 +114,14 @@ infiniterecon/
   ngrok http 8000
   ```
 
-## 🔒 Security Notes
+## Security Notes
 
 - Keep your `.env` file private and never commit it to repositories
 - Use strong API keys and rotate them regularly
 - Consider adding authentication to the dashboard
 - Be mindful of local privacy laws and regulations
 
-## 🎯 Future Plans
+## Future Plans
 
 1. Integrate robust speaker diarization
 2. Add support for analog microphones
@@ -131,11 +131,11 @@ infiniterecon/
 6. Implement HTTPS encryption
 7. Add rate limiting for API calls
 
-## 📝 Contributing
+## Contributing
 
 Contributions are welcome! Please read our contributing guidelines before submitting pull requests.
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 This project is for educational purposes only. Always comply with local laws and regulations regarding audio recording and surveillance. Obtain necessary permissions before deploying this system.
 
