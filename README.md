@@ -117,8 +117,6 @@ infiniterecon/
 ## Security Notes
 
 - Keep your `.env` file private and never commit it to repositories
-- Use strong API keys and rotate them regularly
-- Consider adding authentication to the dashboard
 - Be mindful of local privacy laws and regulations
 
 ## Future Plans
