@@ -75,50 +75,6 @@ infiniterecon/
 2. Update Wi-Fi credentials and Raspberry Pi IP
 3. Flash to ESP32-S3
 
-### 3. Raspberry Pi Setup
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/infiniterecon.git
-   cd infiniterecon
-   ```
-
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Set up environment variables:
-   ```bash
-   cp .env.example .env
-   nano .env  # Add your API keys
-   ```
-
-4. Required API Keys:
-   - Twilio (for SMS alerts)
-   - OpenAI/Anthropic/DeepSeek (for LLM features)
-
-5. Start the server:
-   ```bash
-   python server/main.py
-   ```
-
-### 4. Accessing the Dashboard
-
-- **Local Network:**  
-  Access at `http://raspberry_pi_ip:8000`
-  
-- **Internet Access (Optional):**  
-  Use ngrok for secure remote access:
-  ```bash
-  ngrok http 8000
-  ```
-
-## Security Notes
-
-- Keep your `.env` file private and never commit it to repositories
-- Be mindful of local privacy laws and regulations
-
 ## Future Plans
 
 1. Integrate robust speaker diarization
