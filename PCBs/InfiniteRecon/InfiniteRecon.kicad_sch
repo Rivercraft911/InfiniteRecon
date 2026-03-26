@@ -2,9 +2,150 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid 4b53e0c9-94bf-49c7-970e-b079d561503a)
+	(uuid "4b53e0c9-94bf-49c7-970e-b079d561503a")
 	(paper "A4")
+	(title_block
+		(title "Main")
+	)
 	(lib_symbols)
+	(sheet
+		(at 100.33 66.04)
+		(size 41.91 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "677081d7-9395-445c-9844-dc27fd8409b1")
+		(property "Sheetname" "Audio"
+			(at 100.33 65.3284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 100.33 98.3746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "InfiniteRecon"
+				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 162.56 72.39)
+		(size 34.29 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a182d6b3-0d24-4b33-a334-59c2a3e71194")
+		(property "Sheetname" "Control"
+			(at 162.56 71.6784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 162.56 97.1046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "InfiniteRecon"
+				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 34.29 66.04)
+		(size 44.45 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e2fa78bb-d2d2-41e6-a454-933065003d74")
+		(property "Sheetname" "Power"
+			(at 34.29 65.3284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 34.29 97.1046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "InfiniteRecon"
+				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
