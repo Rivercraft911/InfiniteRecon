@@ -582,12 +582,24 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -628,7 +640,7 @@
       "model_mode": 4,
       "workbook_filename": ""
     },
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "Power",
     "plot_directory": "",
     "reuse_designators": true,
     "subpart_first_id": 65,
@@ -640,7 +652,7 @@
         "uuid": "4b53e0c9-94bf-49c7-970e-b079d561503a"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U1-2,J1,BT1,Q1-2,D1-4,#PWR1-13,C1-3,R1-6",
     "variants": []
   },
   "sheets": [
@@ -653,11 +665,11 @@
       "Power"
     ],
     [
-      "a182d6b3-0d24-4b33-a334-59c2a3e71194",
+      "76707817-d5e8-4adf-8437-8bb113ba0835",
       "Control"
     ],
     [
-      "677081d7-9395-445c-9844-dc27fd8409b1",
+      "3af86f1a-4fae-428a-a65a-b21b87cfea19",
       "Audio"
     ]
   ],
