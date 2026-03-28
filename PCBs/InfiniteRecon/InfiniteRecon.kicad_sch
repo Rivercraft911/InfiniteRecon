@@ -6,10 +6,12 @@
 	(paper "A4")
 	(title_block
 		(title "Main")
+		(date "2026-03-27")
+		(rev "1")
 	)
 	(lib_symbols)
 	(sheet
-		(at 171.45 66.04)
+		(at 147.32 66.04)
 		(size 44.45 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25,7 +27,7 @@
 		)
 		(uuid "3af86f1a-4fae-428a-a65a-b21b87cfea19")
 		(property "Sheetname" "Audio"
-			(at 171.45 65.3284 0)
+			(at 147.32 65.3284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36,7 +38,7 @@
 			)
 		)
 		(property "Sheetfile" "audio.kicad_sch"
-			(at 171.45 99.6446 0)
+			(at 147.32 99.6446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -55,7 +57,7 @@
 		)
 	)
 	(sheet
-		(at 109.22 66.04)
+		(at 92.71 66.04)
 		(size 44.45 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -70,8 +72,8 @@
 			(color 0 0 0 0)
 		)
 		(uuid "76707817-d5e8-4adf-8437-8bb113ba0835")
-		(property "Sheetname" "Control"
-			(at 109.22 65.3284 0)
+		(property "Sheetname" "control"
+			(at 92.71 65.3284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -82,7 +84,7 @@
 			)
 		)
 		(property "Sheetfile" "control.kicad_sch"
-			(at 109.22 98.3746 0)
+			(at 92.71 98.3746 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

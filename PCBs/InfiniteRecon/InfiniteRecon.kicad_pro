@@ -224,7 +224,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -652,7 +652,7 @@
         "uuid": "4b53e0c9-94bf-49c7-970e-b079d561503a"
       }
     ],
-    "used_designators": "U1-2,J1,BT1,Q1-2,D1-4,#PWR1-13,C1-3,R1-6",
+    "used_designators": "MK2-7",
     "variants": []
   },
   "sheets": [
@@ -666,7 +666,7 @@
     ],
     [
       "76707817-d5e8-4adf-8437-8bb113ba0835",
-      "Control"
+      "control"
     ],
     [
       "3af86f1a-4fae-428a-a65a-b21b87cfea19",
