@@ -3758,7 +3758,7 @@
 	)
 	(text "20K -> ~47s timer"
 		(exclude_from_sim no)
-		(at 185.42 53.34 0)
+		(at 180.34 53.34 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -3778,7 +3778,7 @@
 	)
 	(text "NeoPixel"
 		(exclude_from_sim no)
-		(at 133.35 29.21 0)
+		(at 128.27 29.21 0)
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -3788,7 +3788,7 @@
 	)
 	(text "I2C Pullups\n"
 		(exclude_from_sim no)
-		(at 247.65 27.94 0)
+		(at 242.57 27.94 0)
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -3798,7 +3798,7 @@
 	)
 	(text "Watchdog\n"
 		(exclude_from_sim no)
-		(at 186.69 27.94 0)
+		(at 181.61 27.94 0)
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -3831,7 +3831,7 @@
 		(uuid "3fa05cfa-20d5-426b-9879-19a465cfdbc8")
 	)
 	(junction
-		(at 241.3 43.18)
+		(at 236.22 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4169a961-8ce1-42aa-9ebb-ec106177ab35")
@@ -3855,7 +3855,7 @@
 		(uuid "52ef1489-93a5-430b-8ab9-8bf34eb07fa1")
 	)
 	(junction
-		(at 217.17 43.18)
+		(at 212.09 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "59e9940b-fee3-4645-8df0-e4616249d762")
@@ -3873,19 +3873,19 @@
 		(uuid "61498774-5c59-4aa5-b2eb-fb75bb401439")
 	)
 	(junction
-		(at 261.62 43.18)
+		(at 256.54 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "670da08f-d682-4f39-8195-a0dd5835d5e5")
 	)
 	(junction
-		(at 173.99 45.72)
+		(at 168.91 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6b55f7f6-381b-49af-896f-05ae35e3821c")
 	)
 	(junction
-		(at 177.8 36.83)
+		(at 172.72 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6c47269a-069e-4aa9-bb2b-7bb074552573")
@@ -3903,7 +3903,7 @@
 		(uuid "8cccfd61-47cf-42d1-bff0-207e860efb00")
 	)
 	(junction
-		(at 144.78 52.07)
+		(at 139.7 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a46132d9-e6b5-457c-a58d-a9bd594489e3")
@@ -3915,7 +3915,7 @@
 		(uuid "ae8e7eb9-5594-47ef-b1b4-f7b203931bba")
 	)
 	(junction
-		(at 173.99 48.26)
+		(at 168.91 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b024df75-9c5f-4313-8955-fb632d63ffe1")
@@ -3933,7 +3933,7 @@
 		(uuid "f4196a2c-fb04-43b2-bddd-c996f46f909b")
 	)
 	(junction
-		(at 144.78 36.83)
+		(at 139.7 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f9ad1837-ff63-416b-9037-159159b181fc")
@@ -3985,7 +3985,7 @@
 		(uuid "9e2ddfa9-297d-40ba-b0c4-76edcfb01133")
 	)
 	(no_connect
-		(at 152.4 44.45)
+		(at 147.32 44.45)
 		(uuid "aa6c1411-5e55-4a6e-a818-236a870af1ea")
 	)
 	(no_connect
@@ -4044,7 +4044,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 43.18) (xy 241.3 43.18)
+			(xy 246.38 43.18) (xy 236.22 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4064,7 +4064,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 45.72) (xy 173.99 48.26)
+			(xy 168.91 45.72) (xy 168.91 48.26)
 		)
 		(stroke
 			(width 0)
@@ -4074,13 +4074,23 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 40.64) (xy 241.3 43.18)
+			(xy 236.22 40.64) (xy 236.22 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0addbf5f-c7cb-4fb3-a449-e1fb4fd78957")
+	)
+	(wire
+		(pts
+			(xy 124.46 44.45) (xy 132.08 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0be8b27b-00ac-469a-8efa-cb7116812c0c")
 	)
 	(wire
 		(pts
@@ -4144,7 +4154,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 48.26) (xy 173.99 52.07)
+			(xy 168.91 48.26) (xy 168.91 52.07)
 		)
 		(stroke
 			(width 0)
@@ -4154,7 +4164,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 48.26) (xy 251.46 52.07)
+			(xy 246.38 48.26) (xy 246.38 52.07)
 		)
 		(stroke
 			(width 0)
@@ -4254,7 +4264,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 52.07) (xy 144.78 52.07)
+			(xy 153.67 52.07) (xy 139.7 52.07)
 		)
 		(stroke
 			(width 0)
@@ -4304,7 +4314,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 43.18) (xy 177.8 36.83)
+			(xy 172.72 43.18) (xy 172.72 36.83)
 		)
 		(stroke
 			(width 0)
@@ -4314,7 +4324,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 44.45) (xy 173.99 45.72)
+			(xy 168.91 44.45) (xy 168.91 45.72)
 		)
 		(stroke
 			(width 0)
@@ -4324,7 +4334,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 48.26) (xy 241.3 52.07)
+			(xy 236.22 48.26) (xy 236.22 52.07)
 		)
 		(stroke
 			(width 0)
@@ -4384,7 +4394,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 40.64) (xy 217.17 43.18)
+			(xy 212.09 40.64) (xy 212.09 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4434,7 +4444,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 45.72) (xy 180.34 45.72)
+			(xy 168.91 45.72) (xy 175.26 45.72)
 		)
 		(stroke
 			(width 0)
@@ -4484,7 +4494,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 52.07) (xy 144.78 53.34)
+			(xy 139.7 52.07) (xy 139.7 53.34)
 		)
 		(stroke
 			(width 0)
@@ -4494,7 +4504,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 43.18) (xy 261.62 43.18)
+			(xy 267.97 43.18) (xy 256.54 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4514,7 +4524,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 45.72) (xy 219.71 45.72)
+			(xy 210.82 45.72) (xy 214.63 45.72)
 		)
 		(stroke
 			(width 0)
@@ -4634,7 +4644,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 48.26) (xy 219.71 48.26)
+			(xy 210.82 48.26) (xy 214.63 48.26)
 		)
 		(stroke
 			(width 0)
@@ -4674,7 +4684,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 48.26) (xy 158.75 52.07)
+			(xy 153.67 48.26) (xy 153.67 52.07)
 		)
 		(stroke
 			(width 0)
@@ -4684,7 +4694,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 43.18) (xy 219.71 43.18)
+			(xy 212.09 43.18) (xy 214.63 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4714,7 +4724,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 36.83) (xy 177.8 36.83)
+			(xy 168.91 36.83) (xy 172.72 36.83)
 		)
 		(stroke
 			(width 0)
@@ -4724,7 +4734,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 43.18) (xy 177.8 43.18)
+			(xy 175.26 43.18) (xy 172.72 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4744,7 +4754,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 34.29) (xy 217.17 35.56)
+			(xy 212.09 34.29) (xy 212.09 35.56)
 		)
 		(stroke
 			(width 0)
@@ -4764,7 +4774,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 36.83) (xy 158.75 40.64)
+			(xy 153.67 36.83) (xy 153.67 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4794,7 +4804,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 48.26) (xy 261.62 52.07)
+			(xy 256.54 48.26) (xy 256.54 52.07)
 		)
 		(stroke
 			(width 0)
@@ -4814,7 +4824,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 40.64) (xy 261.62 43.18)
+			(xy 256.54 40.64) (xy 256.54 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4834,7 +4844,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 43.18) (xy 217.17 43.18)
+			(xy 210.82 43.18) (xy 212.09 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4844,7 +4854,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 36.83) (xy 158.75 36.83)
+			(xy 139.7 36.83) (xy 153.67 36.83)
 		)
 		(stroke
 			(width 0)
@@ -4864,7 +4874,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 48.26) (xy 273.05 52.07)
+			(xy 267.97 48.26) (xy 267.97 52.07)
 		)
 		(stroke
 			(width 0)
@@ -4884,7 +4894,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 48.26) (xy 175.26 48.26)
+			(xy 168.91 48.26) (xy 170.18 48.26)
 		)
 		(stroke
 			(width 0)
@@ -4894,7 +4904,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 35.56) (xy 144.78 36.83)
+			(xy 139.7 35.56) (xy 139.7 36.83)
 		)
 		(stroke
 			(width 0)
@@ -4962,7 +4972,7 @@
 	)
 	(global_label "SCL_1"
 		(shape bidirectional)
-		(at 241.3 52.07 0)
+		(at 236.22 52.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4972,7 +4982,7 @@
 		)
 		(uuid "21af76d3-116b-489d-a4b3-3b210c5433a2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 251.0812 52.07 0)
+			(at 246.0012 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5082,7 +5092,7 @@
 	)
 	(global_label "SDA_SW"
 		(shape bidirectional)
-		(at 273.05 52.07 0)
+		(at 267.97 52.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5092,7 +5102,7 @@
 		)
 		(uuid "478ae34d-2ceb-48eb-b518-8ae14ce8d936")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 284.3431 52.07 0)
+			(at 279.2631 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5202,7 +5212,7 @@
 	)
 	(global_label "WD_WAKE"
 		(shape output)
-		(at 219.71 45.72 0)
+		(at 214.63 45.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5212,7 +5222,7 @@
 		)
 		(uuid "6a8159d1-1ae2-4724-a5ca-d973eaa65c7f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 231.3432 45.72 0)
+			(at 226.2632 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5250,7 +5260,7 @@
 	)
 	(global_label "SCL_SW"
 		(shape bidirectional)
-		(at 261.62 52.07 0)
+		(at 256.54 52.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5260,7 +5270,7 @@
 		)
 		(uuid "7ba1867d-f486-4c4b-a156-6a5027bed57c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 272.8526 52.07 0)
+			(at 267.7726 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5370,7 +5380,7 @@
 	)
 	(global_label "SDA_1"
 		(shape bidirectional)
-		(at 251.46 52.07 0)
+		(at 246.38 52.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5380,7 +5390,7 @@
 		)
 		(uuid "951f31f9-70ab-4c2e-925a-5decfa707f12")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 261.3017 52.07 0)
+			(at 256.2217 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5466,7 +5476,7 @@
 	)
 	(global_label "WD_RST"
 		(shape output)
-		(at 219.71 43.18 0)
+		(at 214.63 43.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5476,7 +5486,7 @@
 		)
 		(uuid "bcf5c745-8c9c-40a4-9f3b-0979d29e7a66")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.8313 43.18 0)
+			(at 224.7513 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5538,7 +5548,7 @@
 	)
 	(global_label "NEOPIXEL"
 		(shape input)
-		(at 137.16 44.45 180)
+		(at 124.46 44.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5548,7 +5558,7 @@
 		)
 		(uuid "cb63a4a6-7d3b-4c61-8309-7df35823fb11")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.1034 44.45 0)
+			(at 112.4034 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5658,7 +5668,7 @@
 	)
 	(global_label "WD_FEED"
 		(shape input)
-		(at 219.71 48.26 0)
+		(at 214.63 48.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5668,7 +5678,7 @@
 		)
 		(uuid "fdfa1ba2-bc7a-43fe-aa64-5ffa4e2fecd8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 231.0408 48.26 0)
+			(at 225.9608 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5715,7 +5725,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "11c48270-7cf9-4ab3-be95-b3bbc6834ffd")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR040"
 			(at 53.34 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -5776,7 +5786,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/76707817-d5e8-4adf-8437-8bb113ba0835"
-					(reference "#PWR038")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -5793,7 +5803,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "246c9a6a-7b09-4fdf-b2aa-7b6a91aec9d9")
-		(property "Reference" "R15"
+		(property "Reference" "R14"
 			(at 71.12 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5813,7 +5823,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 67.31 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -5855,7 +5865,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/76707817-d5e8-4adf-8437-8bb113ba0835"
-					(reference "R15")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -5873,7 +5883,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3383b877-e6f7-4663-bf31-e8b770cd54a7")
-		(property "Reference" "U7"
+		(property "Reference" "U6"
 			(at 88.5033 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6065,7 +6075,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/76707817-d5e8-4adf-8437-8bb113ba0835"
-					(reference "U7")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -6073,7 +6083,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 144.78 35.56 0)
+		(at 139.7 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6082,8 +6092,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3e5acaaf-6449-40a2-8e6b-a4eecb41f63c")
-		(property "Reference" "#PWR045"
-			(at 144.78 39.37 0)
+		(property "Reference" "#PWR046"
+			(at 139.7 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6094,7 +6104,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 144.78 32.004 0)
+			(at 139.7 32.004 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6104,7 +6114,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 35.56 0)
+			(at 139.7 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6115,7 +6125,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 35.56 0)
+			(at 139.7 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6126,7 +6136,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 144.78 35.56 0)
+			(at 139.7 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6142,7 +6152,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/76707817-d5e8-4adf-8437-8bb113ba0835"
-					(reference "#PWR045")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -6159,7 +6169,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "3f463afd-91b7-4c5c-95cf-dd2336572c2b")
-		(property "Reference" "R33"
+		(property "Reference" "R15"
 			(at 165.735 94.615 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6221,7 +6231,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/76707817-d5e8-4adf-8437-8bb113ba0835"
-					(reference "R33")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -6238,7 +6248,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "422ef2d1-443c-441a-bdc2-de8c208a9b29")
-		(property "Reference" "C15"
+		(property "Reference" "C14"
 			(at 80.645 42.545 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6457,7 +6467,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/76707817-d5e8-4adf-8437-8bb113ba0835"
-					(reference "C15")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -6475,7 +6485,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "466fde34-03fb-442b-b7ba-2b24ec295403")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR043"
 			(at 78.74 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -6536,7 +6546,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/76707817-d5e8-4adf-8437-8bb113ba0835"
-					(reference "#PWR041")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -6544,7 +6554,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 241.3 45.72 0)
+		(at 236.22 45.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6553,8 +6563,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5159eda2-0647-4cc5-b414-38928f2f7127")
-		(property "Reference" "R28"
-			(at 238.125 45.085 0)
+		(property "Reference" "R19"
+			(at 233.045 45.085 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6564,7 +6574,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 238.125 46.99 0)
+			(at 233.045 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6573,8 +6583,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
-			(at 241.3 45.72 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 236.22 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6585,7 +6595,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 45.72 0)
+			(at 236.22 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6596,7 +6606,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 241.3 45.72 0)
+			(at 236.22 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6615,7 +6625,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/76707817-d5e8-4adf-8437-8bb113ba0835"
-					(reference "R28")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -6632,7 +6642,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "54101793-f506-4677-84a9-f787cb0c0e70")
-		(property "Reference" "C12"
+		(property "Reference" "C11"
 			(at 53.467 56.769 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6851,7 +6861,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/76707817-d5e8-4adf-8437-8bb113ba0835"
-					(reference "C12")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -6859,7 +6869,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:0402,100nF")
-		(at 173.99 40.64 0)
+		(at 168.91 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6868,8 +6878,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "54e70ddc-460b-4d4d-8a47-eff95a688f4b")
-		(property "Reference" "C10"
-			(at 169.545 38.735 0)
+		(property "Reference" "C16"
+			(at 164.465 38.735 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6880,7 +6890,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 170.18 42.418 0)
+			(at 165.1 42.418 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6891,7 +6901,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:C_0402"
-			(at 172.212 40.64 90)
+			(at 167.132 40.64 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6902,7 +6912,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
-			(at 173.99 40.64 0)
+			(at 168.91 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6913,7 +6923,7 @@
 			)
 		)
 		(property "Description" "16V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 173.99 40.64 0)
+			(at 168.91 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6924,7 +6934,7 @@
 			)
 		)
 		(property "LCSC" "C1525"
-			(at 173.99 40.64 0)
+			(at 168.91 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6935,7 +6945,7 @@
 			)
 		)
 		(property "Stock" "20208285"
-			(at 173.99 40.64 0)
+			(at 168.91 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6946,7 +6956,7 @@
 			)
 		)
 		(property "Price" "0.004USD"
-			(at 173.99 40.64 0)
+			(at 168.91 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6957,7 +6967,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 173.99 40.64 0)
+			(at 168.91 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6968,7 +6978,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 173.99 40.64 0)
+			(at 168.91 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6979,7 +6989,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 173.99 40.64 0)
+			(at 168.91 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6990,7 +7000,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 173.99 40.64 0)
+			(at 168.91 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7001,7 +7011,7 @@
 			)
 		)
 		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 173.99 40.64 0)
+			(at 168.91 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7012,7 +7022,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 173.99 40.64 0)
+			(at 168.91 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7023,7 +7033,7 @@
 			)
 		)
 		(property "Part" "CL05B104KO5NNNC"
-			(at 173.99 40.64 0)
+			(at 168.91 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7034,7 +7044,7 @@
 			)
 		)
 		(property "Voltage Rated" "16V"
-			(at 176.53 43.18 0)
+			(at 171.45 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7046,7 +7056,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 173.99 40.64 0)
+			(at 168.91 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7057,7 +7067,7 @@
 			)
 		)
 		(property "Capacitance" "100nF"
-			(at 173.99 40.64 0)
+			(at 168.91 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7068,7 +7078,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "X7R"
-			(at 173.99 40.64 0)
+			(at 168.91 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7087,7 +7097,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/76707817-d5e8-4adf-8437-8bb113ba0835"
-					(reference "C10")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -7095,7 +7105,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 217.17 34.29 0)
+		(at 212.09 34.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7104,8 +7114,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "62c8e08b-78f3-4e20-bab8-d46dfb738a43")
-		(property "Reference" "#PWR044"
-			(at 217.17 38.1 0)
+		(property "Reference" "#PWR053"
+			(at 212.09 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7116,7 +7126,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 217.17 30.734 0)
+			(at 212.09 30.734 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7126,7 +7136,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 217.17 34.29 0)
+			(at 212.09 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7137,7 +7147,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 34.29 0)
+			(at 212.09 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7148,7 +7158,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 217.17 34.29 0)
+			(at 212.09 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7164,7 +7174,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/76707817-d5e8-4adf-8437-8bb113ba0835"
-					(reference "#PWR044")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -7533,7 +7543,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7269418a-f8ed-4a66-b685-05085d739e25")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR054"
 			(at 218.44 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -7594,7 +7604,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/76707817-d5e8-4adf-8437-8bb113ba0835"
-					(reference "#PWR047")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -7602,7 +7612,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 251.46 45.72 0)
+		(at 246.38 45.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7611,8 +7621,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7670e549-4522-4c78-8a08-a8c3e4d5cd2c")
-		(property "Reference" "R29"
-			(at 248.285 45.085 0)
+		(property "Reference" "R20"
+			(at 243.205 45.085 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7622,7 +7632,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 248.285 46.99 0)
+			(at 243.205 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7631,8 +7641,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
-			(at 251.46 45.72 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 246.38 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7643,7 +7653,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 45.72 0)
+			(at 246.38 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7654,7 +7664,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 251.46 45.72 0)
+			(at 246.38 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7673,7 +7683,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/76707817-d5e8-4adf-8437-8bb113ba0835"
-					(reference "R29")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -7690,7 +7700,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7b1a010b-cd00-4247-b686-797a0a1bff5c")
-		(property "Reference" "C14"
+		(property "Reference" "C13"
 			(at 75.565 42.545 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7909,7 +7919,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/76707817-d5e8-4adf-8437-8bb113ba0835"
-					(reference "C14")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -7926,7 +7936,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7bfffc9d-faa5-482b-9223-2d4e6ced8ea7")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR045"
 			(at 86.36 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -7986,7 +7996,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/76707817-d5e8-4adf-8437-8bb113ba0835"
-					(reference "#PWR043")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -8003,7 +8013,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8598e57e-e7eb-427f-8f02-25b4a3e2566d")
-		(property "Reference" "C13"
+		(property "Reference" "C12"
 			(at 50.165 73.406 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8222,7 +8232,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/76707817-d5e8-4adf-8437-8bb113ba0835"
-					(reference "C13")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -8239,7 +8249,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8873bffb-48b7-4f04-b685-48770b68cce1")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR041"
 			(at 53.34 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -8300,7 +8310,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/76707817-d5e8-4adf-8437-8bb113ba0835"
-					(reference "#PWR039")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -8317,7 +8327,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "88c6fcd6-9c55-4f5f-a4d9-e09e2818176a")
-		(property "Reference" "C11"
+		(property "Reference" "C10"
 			(at 46.355 56.769 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8536,7 +8546,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/76707817-d5e8-4adf-8437-8bb113ba0835"
-					(reference "C11")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -8554,7 +8564,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b0d9d51-a85b-41f5-bd50-8989273274c1")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR050"
 			(at 162.56 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -8615,7 +8625,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/76707817-d5e8-4adf-8437-8bb113ba0835"
-					(reference "#PWR082")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -8623,7 +8633,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 177.8 48.26 90)
+		(at 172.72 48.26 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8632,8 +8642,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "973e768d-21d9-4107-a806-92658c2a698e")
-		(property "Reference" "R14"
-			(at 177.8 45.72 90)
+		(property "Reference" "R17"
+			(at 172.72 46.482 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8643,7 +8653,7 @@
 			)
 		)
 		(property "Value" "20kΩ"
-			(at 177.8 50.8 90)
+			(at 172.974 50.292 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -8653,7 +8663,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:R_0402"
-			(at 177.8 48.26 0)
+			(at 172.72 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8664,7 +8674,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010100_UNI-ROYAL-Uniroyal-Elec-0402WGF2002TCE_C25765.pdf"
-			(at 177.8 48.26 0)
+			(at 172.72 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8675,7 +8685,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 177.8 48.26 0)
+			(at 172.72 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8686,7 +8696,7 @@
 			)
 		)
 		(property "LCSC" "C25765"
-			(at 177.8 48.26 0)
+			(at 172.72 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8697,7 +8707,7 @@
 			)
 		)
 		(property "Stock" "3268540"
-			(at 177.8 48.26 0)
+			(at 172.72 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8708,7 +8718,7 @@
 			)
 		)
 		(property "Price" "0.004USD"
-			(at 177.8 48.26 0)
+			(at 172.72 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8719,7 +8729,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 177.8 48.26 0)
+			(at 172.72 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8730,7 +8740,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 177.8 48.26 0)
+			(at 172.72 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8741,7 +8751,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 177.8 48.26 0)
+			(at 172.72 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8752,7 +8762,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 177.8 48.26 0)
+			(at 172.72 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8763,7 +8773,7 @@
 			)
 		)
 		(property "Category" "Resistors,Chip Resistor - Surface Mount"
-			(at 177.8 48.26 0)
+			(at 172.72 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8774,7 +8784,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 177.8 48.26 0)
+			(at 172.72 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8785,7 +8795,7 @@
 			)
 		)
 		(property "Part" "0402WGF2002TCE"
-			(at 177.8 48.26 0)
+			(at 172.72 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8796,7 +8806,7 @@
 			)
 		)
 		(property "Resistance" "20kΩ"
-			(at 177.8 48.26 0)
+			(at 172.72 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8807,7 +8817,7 @@
 			)
 		)
 		(property "Power(Watts)" "62.5mW"
-			(at 177.8 48.26 0)
+			(at 172.72 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8818,7 +8828,7 @@
 			)
 		)
 		(property "Type" "Thick Film Resistors"
-			(at 177.8 48.26 0)
+			(at 172.72 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8829,7 +8839,7 @@
 			)
 		)
 		(property "Overload Voltage (Max)" "50V"
-			(at 177.8 48.26 0)
+			(at 172.72 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8840,7 +8850,7 @@
 			)
 		)
 		(property "Operating Temperature Range" "-55°C~+155°C"
-			(at 177.8 48.26 0)
+			(at 172.72 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8851,7 +8861,7 @@
 			)
 		)
 		(property "Tolerance" "±1%"
-			(at 177.8 48.26 0)
+			(at 172.72 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8862,7 +8872,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "±100ppm/°C"
-			(at 177.8 48.26 0)
+			(at 172.72 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8881,7 +8891,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/76707817-d5e8-4adf-8437-8bb113ba0835"
-					(reference "R14")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -8889,7 +8899,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 217.17 38.1 0)
+		(at 212.09 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8898,8 +8908,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a1c5a94d-b510-4140-9d0e-f32f5d40615e")
-		(property "Reference" "R16"
-			(at 212.725 36.195 0)
+		(property "Reference" "R18"
+			(at 207.645 36.195 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8910,7 +8920,7 @@
 			)
 		)
 		(property "Value" "100K"
-			(at 218.44 36.195 0)
+			(at 213.36 36.195 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8921,7 +8931,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:R_0402"
-			(at 217.17 38.1 0)
+			(at 212.09 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8932,7 +8942,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 38.1 0)
+			(at 212.09 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8943,7 +8953,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 217.17 38.1 0)
+			(at 212.09 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8962,7 +8972,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/76707817-d5e8-4adf-8437-8bb113ba0835"
-					(reference "R16")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -8970,7 +8980,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:0402,100nF")
-		(at 158.75 44.45 0)
+		(at 153.67 44.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8979,8 +8989,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a3c21042-01bb-45c2-ae25-30760ac15080")
-		(property "Reference" "C16"
-			(at 155.575 42.545 0)
+		(property "Reference" "C15"
+			(at 150.495 42.545 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8991,7 +9001,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 154.94 46.355 0)
+			(at 149.86 46.355 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9002,7 +9012,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:C_0402"
-			(at 156.972 44.45 90)
+			(at 151.892 44.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9013,7 +9023,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
-			(at 158.75 44.45 0)
+			(at 153.67 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9024,7 +9034,7 @@
 			)
 		)
 		(property "Description" "16V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 158.75 44.45 0)
+			(at 153.67 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9035,7 +9045,7 @@
 			)
 		)
 		(property "LCSC" "C1525"
-			(at 158.75 44.45 0)
+			(at 153.67 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9046,7 +9056,7 @@
 			)
 		)
 		(property "Stock" "20208285"
-			(at 158.75 44.45 0)
+			(at 153.67 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9057,7 +9067,7 @@
 			)
 		)
 		(property "Price" "0.004USD"
-			(at 158.75 44.45 0)
+			(at 153.67 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9068,7 +9078,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 158.75 44.45 0)
+			(at 153.67 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9079,7 +9089,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 158.75 44.45 0)
+			(at 153.67 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9090,7 +9100,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 158.75 44.45 0)
+			(at 153.67 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9101,7 +9111,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 158.75 44.45 0)
+			(at 153.67 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9112,7 +9122,7 @@
 			)
 		)
 		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 158.75 44.45 0)
+			(at 153.67 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9123,7 +9133,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 158.75 44.45 0)
+			(at 153.67 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9134,7 +9144,7 @@
 			)
 		)
 		(property "Part" "CL05B104KO5NNNC"
-			(at 158.75 44.45 0)
+			(at 153.67 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9145,7 +9155,7 @@
 			)
 		)
 		(property "Voltage Rated" "16V"
-			(at 161.29 46.99 0)
+			(at 156.21 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9157,7 +9167,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 158.75 44.45 0)
+			(at 153.67 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9168,7 +9178,7 @@
 			)
 		)
 		(property "Capacitance" "100nF"
-			(at 158.75 44.45 0)
+			(at 153.67 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9179,7 +9189,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "X7R"
-			(at 158.75 44.45 0)
+			(at 153.67 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9198,7 +9208,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/76707817-d5e8-4adf-8437-8bb113ba0835"
-					(reference "C16")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -9206,7 +9216,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 173.99 52.07 0)
+		(at 168.91 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9216,8 +9226,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a58e4a47-4383-49e8-90b1-f8d040bcfe96")
-		(property "Reference" "#PWR036"
-			(at 173.99 58.42 0)
+		(property "Reference" "#PWR051"
+			(at 168.91 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9228,7 +9238,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 173.99 57.15 0)
+			(at 168.91 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9239,7 +9249,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 173.99 52.07 0)
+			(at 168.91 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9250,7 +9260,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 52.07 0)
+			(at 168.91 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9261,7 +9271,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 173.99 52.07 0)
+			(at 168.91 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9277,7 +9287,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/76707817-d5e8-4adf-8437-8bb113ba0835"
-					(reference "#PWR036")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -9285,7 +9295,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 273.05 45.72 0)
+		(at 267.97 45.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9294,8 +9304,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a5b7e2e3-57e8-4427-a5f3-d99f1486a53a")
-		(property "Reference" "R31"
-			(at 269.875 45.085 0)
+		(property "Reference" "R22"
+			(at 264.795 45.085 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9305,7 +9315,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 269.875 46.99 0)
+			(at 264.795 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9314,8 +9324,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
-			(at 273.05 45.72 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 267.97 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9326,7 +9336,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 273.05 45.72 0)
+			(at 267.97 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9337,7 +9347,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 273.05 45.72 0)
+			(at 267.97 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9356,7 +9366,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/76707817-d5e8-4adf-8437-8bb113ba0835"
-					(reference "R31")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -9715,7 +9725,7 @@
 	)
 	(symbol
 		(lib_id "JLCImport:TPL5010DDCR")
-		(at 198.12 45.72 0)
+		(at 193.04 45.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9725,8 +9735,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c767dde0-4fb2-4df5-93fb-c4d68113ceb6")
-		(property "Reference" "U6"
-			(at 198.12 35.56 0)
+		(property "Reference" "U7"
+			(at 193.04 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9736,7 +9746,7 @@
 			)
 		)
 		(property "Value" "TPL5010DDCR"
-			(at 198.12 38.1 0)
+			(at 193.04 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9746,7 +9756,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 198.12 45.72 0)
+			(at 193.04 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9757,7 +9767,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2002291407_Texas-Instruments-TPL5010DDCR_C473912.pdf"
-			(at 198.12 45.72 0)
+			(at 193.04 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9768,7 +9778,7 @@
 			)
 		)
 		(property "Description" "-40℃~+105℃ 1.8V~5.5V 35nA SOT-23-Thin-6 Timers / Counters ROHS"
-			(at 198.12 45.72 0)
+			(at 193.04 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9779,7 +9789,7 @@
 			)
 		)
 		(property "LCSC" "C473912"
-			(at 198.12 45.72 0)
+			(at 193.04 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9790,7 +9800,7 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
-			(at 198.12 45.72 0)
+			(at 193.04 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9801,7 +9811,7 @@
 			)
 		)
 		(property "Manufacturer Part" "TPL5010DDCR"
-			(at 198.12 45.72 0)
+			(at 193.04 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9832,7 +9842,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/76707817-d5e8-4adf-8437-8bb113ba0835"
-					(reference "U6")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -9849,7 +9859,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c773f1d0-93e8-4521-89cf-8dd51e178bd9")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR049"
 			(at 162.56 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -9909,7 +9919,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/76707817-d5e8-4adf-8437-8bb113ba0835"
-					(reference "#PWR083")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -9924,7 +9934,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "ce7e2ef1-6dc4-401e-bffc-bf9da124fdcb")
 		(property "Reference" "SIM1"
 			(at 180.34 67.31 0)
@@ -10062,7 +10072,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d11e041a-3ad8-4989-a44e-1d0b9cae42ff")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR048"
 			(at 158.75 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -10122,7 +10132,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/76707817-d5e8-4adf-8437-8bb113ba0835"
-					(reference "#PWR084")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -10130,7 +10140,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 261.62 45.72 0)
+		(at 256.54 45.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10139,8 +10149,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d3cb11a6-0f16-48f8-90f6-6490f0cb5429")
-		(property "Reference" "R30"
-			(at 258.445 45.085 0)
+		(property "Reference" "R21"
+			(at 253.365 45.085 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10150,7 +10160,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 258.445 46.99 0)
+			(at 253.365 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10159,8 +10169,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
-			(at 261.62 45.72 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 256.54 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10171,7 +10181,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 45.72 0)
+			(at 256.54 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10182,7 +10192,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 261.62 45.72 0)
+			(at 256.54 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10201,7 +10211,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/76707817-d5e8-4adf-8437-8bb113ba0835"
-					(reference "R30")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -10209,7 +10219,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 261.62 40.64 0)
+		(at 256.54 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10218,8 +10228,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d7f31775-de59-4f8e-b906-4ad19139e8b0")
-		(property "Reference" "#PWR081"
-			(at 261.62 44.45 0)
+		(property "Reference" "#PWR056"
+			(at 256.54 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10230,7 +10240,7 @@
 			)
 		)
 		(property "Value" "3V3_SW"
-			(at 261.62 36.83 0)
+			(at 256.54 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10240,7 +10250,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 261.62 40.64 0)
+			(at 256.54 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10251,7 +10261,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 40.64 0)
+			(at 256.54 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10262,7 +10272,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 261.62 40.64 0)
+			(at 256.54 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10278,7 +10288,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/76707817-d5e8-4adf-8437-8bb113ba0835"
-					(reference "#PWR081")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -10295,7 +10305,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "de0fcd56-140b-42ff-80c1-f4183023fa4c")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR039"
 			(at 39.37 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -10356,7 +10366,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/76707817-d5e8-4adf-8437-8bb113ba0835"
-					(reference "#PWR035")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -10364,7 +10374,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 144.78 44.45 0)
+		(at 139.7 44.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10374,7 +10384,7 @@
 		(dnp no)
 		(uuid "e0101204-7bf7-4301-aa9f-5979fdfeade8")
 		(property "Reference" "D6"
-			(at 137.795 37.465 0)
+			(at 132.715 37.465 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10384,7 +10394,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 134.62 39.37 0)
+			(at 129.54 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10394,7 +10404,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 146.05 52.07 0)
+			(at 140.97 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10406,7 +10416,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 147.32 53.975 0)
+			(at 142.24 53.975 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10418,7 +10428,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 144.78 44.45 0)
+			(at 139.7 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10460,7 +10470,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e3bca774-a54b-47e3-aa9a-319d47628a06")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR044"
 			(at 86.36 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -10520,7 +10530,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/76707817-d5e8-4adf-8437-8bb113ba0835"
-					(reference "#PWR042")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -10528,7 +10538,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 177.8 36.83 0)
+		(at 172.72 36.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10538,8 +10548,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6f9da41-8f67-45cf-84ed-0e4a08761255")
-		(property "Reference" "#PWR037"
-			(at 177.8 40.64 0)
+		(property "Reference" "#PWR052"
+			(at 172.72 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10550,7 +10560,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 177.8 32.385 0)
+			(at 172.72 32.385 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10560,7 +10570,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 36.83 0)
+			(at 172.72 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10571,7 +10581,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 36.83 0)
+			(at 172.72 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10582,7 +10592,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 177.8 36.83 0)
+			(at 172.72 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10598,7 +10608,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/76707817-d5e8-4adf-8437-8bb113ba0835"
-					(reference "#PWR037")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -10615,7 +10625,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "eae7cc22-20a2-4e0a-a9cc-968ae84a069d")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR042"
 			(at 67.31 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -10675,7 +10685,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/76707817-d5e8-4adf-8437-8bb113ba0835"
-					(reference "#PWR040")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -10683,7 +10693,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 241.3 40.64 0)
+		(at 236.22 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10692,8 +10702,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f2217d28-bbff-4196-8037-c5d988bf65af")
-		(property "Reference" "#PWR029"
-			(at 241.3 44.45 0)
+		(property "Reference" "#PWR055"
+			(at 236.22 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10704,7 +10714,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 241.3 36.83 0)
+			(at 236.22 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10714,7 +10724,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 241.3 40.64 0)
+			(at 236.22 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10725,7 +10735,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 40.64 0)
+			(at 236.22 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10736,7 +10746,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 241.3 40.64 0)
+			(at 236.22 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10752,7 +10762,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/76707817-d5e8-4adf-8437-8bb113ba0835"
-					(reference "#PWR029")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -10769,7 +10779,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "f495ad59-0e86-417b-b71a-fbd43636def1")
-		(property "Reference" "R32"
+		(property "Reference" "R16"
 			(at 167.005 73.025 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10831,7 +10841,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/76707817-d5e8-4adf-8437-8bb113ba0835"
-					(reference "R32")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -10839,7 +10849,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 144.78 53.34 0)
+		(at 139.7 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10848,8 +10858,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fd959712-4a07-4e72-bfa8-10267c703539")
-		(property "Reference" "#PWR046"
-			(at 144.78 59.69 0)
+		(property "Reference" "#PWR047"
+			(at 139.7 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10860,7 +10870,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 144.78 57.15 0)
+			(at 139.7 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10870,7 +10880,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 53.34 0)
+			(at 139.7 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10881,7 +10891,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 53.34 0)
+			(at 139.7 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10892,7 +10902,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 144.78 53.34 0)
+			(at 139.7 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10908,7 +10918,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/76707817-d5e8-4adf-8437-8bb113ba0835"
-					(reference "#PWR046")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)

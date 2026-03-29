@@ -9416,7 +9416,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "04126518-ee88-49ba-9b78-6490153a37e3")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR038"
 			(at 205.74 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -9476,7 +9476,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/e2fa78bb-d2d2-41e6-a454-933065003d74"
-					(reference "#PWR077")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -9963,7 +9963,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0eea0b6c-8fd0-40d2-a118-40cee821d2bf")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR025"
 			(at 116.84 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -10024,7 +10024,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/e2fa78bb-d2d2-41e6-a454-933065003d74"
-					(reference "#PWR023")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -10277,7 +10277,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12f517d4-20f9-4a8a-8620-427aa4f3e51f")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR036"
 			(at 196.85 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -10338,7 +10338,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/e2fa78bb-d2d2-41e6-a454-933065003d74"
-					(reference "#PWR033")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -10541,7 +10541,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 68.326 120.904 90)
 			(hide yes)
 			(show_name no)
@@ -10601,7 +10601,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16719633-2d60-438a-ace3-7787fff68e52")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR028"
 			(at 137.16 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -10662,7 +10662,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/e2fa78bb-d2d2-41e6-a454-933065003d74"
-					(reference "#PWR026")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -11329,7 +11329,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 73.406 120.904 90)
 			(hide yes)
 			(show_name no)
@@ -11467,7 +11467,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2af03d9d-5d3b-4e13-9aac-4886c6abcee8")
-		(property "Reference" "C6"
+		(property "Reference" "C7"
 			(at 195.072 129.032 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11686,7 +11686,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/e2fa78bb-d2d2-41e6-a454-933065003d74"
-					(reference "C6")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -11783,7 +11783,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "319d9507-23f8-4c9d-9870-1ae74d35ef0e")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR034"
 			(at 176.53 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -11843,7 +11843,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/e2fa78bb-d2d2-41e6-a454-933065003d74"
-					(reference "#PWR088")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -11860,7 +11860,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "32c82cb1-190e-4950-ae63-b9d266eb88e0")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR022"
 			(at 113.03 127 0)
 			(hide yes)
 			(show_name no)
@@ -11920,7 +11920,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/e2fa78bb-d2d2-41e6-a454-933065003d74"
-					(reference "#PWR020")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -12608,7 +12608,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3eb9e24f-0be5-4065-8d4d-f397ded8ac7e")
-		(property "Reference" "R12"
+		(property "Reference" "R13"
 			(at 196.85 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12670,7 +12670,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/e2fa78bb-d2d2-41e6-a454-933065003d74"
-					(reference "R12")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -12843,7 +12843,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "40198636-6c9e-4ec8-a411-242a372139a6")
-		(property "Reference" "#FLG08"
+		(property "Reference" "#FLG09"
 			(at 119.38 80.645 0)
 			(hide yes)
 			(show_name no)
@@ -12903,7 +12903,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/e2fa78bb-d2d2-41e6-a454-933065003d74"
-					(reference "#FLG08")
+					(reference "#FLG09")
 					(unit 1)
 				)
 			)
@@ -13078,7 +13078,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "50d36e31-b597-44c3-a96e-c4d8295b8239")
-		(property "Reference" "C9"
+		(property "Reference" "C8"
 			(at 196.85 102.362 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13297,7 +13297,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/e2fa78bb-d2d2-41e6-a454-933065003d74"
-					(reference "C9")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -13314,7 +13314,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "55d32050-4fef-424e-9351-a9094220f043")
-		(property "Reference" "U4"
+		(property "Reference" "U5"
 			(at 175.26 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13421,7 +13421,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/e2fa78bb-d2d2-41e6-a454-933065003d74"
-					(reference "U4")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -14159,7 +14159,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "655f8396-4078-4b26-a17c-480b517f8db3")
-		(property "Reference" "#FLG09"
+		(property "Reference" "#FLG08"
 			(at 119.38 74.295 0)
 			(hide yes)
 			(show_name no)
@@ -14219,7 +14219,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/e2fa78bb-d2d2-41e6-a454-933065003d74"
-					(reference "#FLG09")
+					(reference "#FLG08")
 					(unit 1)
 				)
 			)
@@ -14237,7 +14237,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "66b22d50-f103-465a-a993-c453392bfcab")
-		(property "Reference" "SC4"
+		(property "Reference" "SC1"
 			(at 34.798 112.268 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14301,7 +14301,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/e2fa78bb-d2d2-41e6-a454-933065003d74"
-					(reference "SC4")
+					(reference "SC1")
 					(unit 1)
 				)
 			)
@@ -14537,7 +14537,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "706af4d8-346c-4060-8b48-082017eda818")
-		(property "Reference" "R13"
+		(property "Reference" "R12"
 			(at 193.04 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14599,7 +14599,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/e2fa78bb-d2d2-41e6-a454-933065003d74"
-					(reference "R13")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -14695,7 +14695,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73ff3035-2c9a-4261-8d5f-0e8c5d96029f")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR020"
 			(at 113.03 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -14755,7 +14755,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/e2fa78bb-d2d2-41e6-a454-933065003d74"
-					(reference "#PWR087")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -14927,7 +14927,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "991d9b36-a366-4781-abb8-c76af24690ae")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR031"
 			(at 158.75 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -14988,7 +14988,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/e2fa78bb-d2d2-41e6-a454-933065003d74"
-					(reference "#PWR028")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -15006,7 +15006,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9954e12c-6708-4210-9e9e-4651dd37c67d")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR029"
 			(at 154.94 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -15067,7 +15067,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/e2fa78bb-d2d2-41e6-a454-933065003d74"
-					(reference "#PWR027")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -15631,7 +15631,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a89402c3-5ad4-45b1-8945-492d95261599")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR030"
 			(at 158.75 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -15691,7 +15691,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/e2fa78bb-d2d2-41e6-a454-933065003d74"
-					(reference "#PWR032")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -15841,7 +15841,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "acfa626e-f831-489d-b0ad-c9e16d30f1e3")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR02"
 			(at 41.91 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -15901,7 +15901,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/e2fa78bb-d2d2-41e6-a454-933065003d74"
-					(reference "#PWR089")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -16075,7 +16075,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7195682-a541-489f-a5d5-abd28509b0a5")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR037"
 			(at 198.12 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -16135,7 +16135,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/e2fa78bb-d2d2-41e6-a454-933065003d74"
-					(reference "#PWR034")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -16152,7 +16152,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b85d1572-4fc0-4313-8e27-e2f69bbb4450")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR033"
 			(at 168.91 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -16212,7 +16212,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/e2fa78bb-d2d2-41e6-a454-933065003d74"
-					(reference "#PWR085")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -16230,7 +16230,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b94f4344-d0ed-450c-937c-d7f8895a69e4")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR032"
 			(at 162.56 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -16291,7 +16291,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/e2fa78bb-d2d2-41e6-a454-933065003d74"
-					(reference "#PWR030")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -16328,7 +16328,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:R_0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 116.84 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -16934,7 +16934,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d00d09ce-da5d-4e3b-a345-92c726cd37d5")
-		(property "Reference" "C8"
+		(property "Reference" "C6"
 			(at 165.1 100.965 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17153,7 +17153,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/e2fa78bb-d2d2-41e6-a454-933065003d74"
-					(reference "C8")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -17406,7 +17406,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d8d37d5c-fc01-4181-8713-cf8f530c4e14")
-		(property "Reference" "C7"
+		(property "Reference" "C9"
 			(at 200.66 122.682 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17625,7 +17625,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/e2fa78bb-d2d2-41e6-a454-933065003d74"
-					(reference "C7")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -17720,7 +17720,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de60556f-41a7-4832-835d-e9d6852268a9")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR024"
 			(at 116.84 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -17781,7 +17781,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/e2fa78bb-d2d2-41e6-a454-933065003d74"
-					(reference "#PWR022")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -17879,7 +17879,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e2bbaad2-624e-4d92-97c0-87d13edd76c5")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR026"
 			(at 119.38 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -17939,7 +17939,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/e2fa78bb-d2d2-41e6-a454-933065003d74"
-					(reference "#PWR024")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -17957,7 +17957,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e460b186-3ad8-497e-84bd-3863c26f1438")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR035"
 			(at 193.04 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -18018,7 +18018,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/e2fa78bb-d2d2-41e6-a454-933065003d74"
-					(reference "#PWR031")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -18036,7 +18036,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e50b8a3a-c880-4cc9-8030-3948ba5d5eae")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR021"
 			(at 113.03 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -18097,7 +18097,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/e2fa78bb-d2d2-41e6-a454-933065003d74"
-					(reference "#PWR086")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -18352,7 +18352,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e6e93bf7-90d5-441e-ba9f-3ecc5714fc1e")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR023"
 			(at 116.84 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -18412,7 +18412,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/e2fa78bb-d2d2-41e6-a454-933065003d74"
-					(reference "#PWR021")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -18449,7 +18449,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 74.93 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -18643,7 +18643,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ebdec86a-f9be-44d6-b078-11623bee6c77")
-		(property "Reference" "U5"
+		(property "Reference" "U4"
 			(at 181.61 92.075 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18715,7 +18715,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/e2fa78bb-d2d2-41e6-a454-933065003d74"
-					(reference "U5")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -19000,7 +19000,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f35b2589-124d-49e1-bcef-0e20dc8b08de")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR027"
 			(at 123.19 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -19060,7 +19060,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/e2fa78bb-d2d2-41e6-a454-933065003d74"
-					(reference "#PWR025")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
