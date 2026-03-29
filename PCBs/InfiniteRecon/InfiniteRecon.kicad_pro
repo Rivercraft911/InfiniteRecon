@@ -652,7 +652,7 @@
         "uuid": "4b53e0c9-94bf-49c7-970e-b079d561503a"
       }
     ],
-    "used_designators": "TP_VSOL_EXT1,TP_VBUS1,TP_3V3_SW1,TP_3V1,TP_VSOL1,TP_1V1-2,SC1-3,SIM1,S1-2,MH1-6,L1,BT1,R1-33,#PWR1-88,D1-6,GND1,TP_SYS1,#FLG1-9,U1-10,MK1-7,C1-37,J1",
+    "used_designators": "TP_1V8_SW1,TP_VSOL_EXT1,TP_VBUS1,TP_3V3_SW1,TP_3V1,TP_VSOL1,TP_1V1-3,SC1-3,SIM1,S1-2,MH1-6,L1,BT1,R1-39,#PWR1-97,D1-6,GND1,TP_SYS1,#FLG1-10,U1-11,MK1-7,C1-43,J1",
     "variants": []
   },
   "sheets": [
