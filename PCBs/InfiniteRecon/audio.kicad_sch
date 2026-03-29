@@ -12624,7 +12624,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-28_4x4mm_P0.5mm"
+		(property "Footprint" "Package_DFN_QFN:WQFN-24-1EP_4x4mm_P0.5mm_EP2.45x2.45mm_ThermalVias"
 			(at 180.3399 132.08 0)
 			(hide yes)
 			(show_name no)
