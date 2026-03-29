@@ -6835,7 +6835,7 @@
 	)
 	(text "Mounting Holes\n"
 		(exclude_from_sim no)
-		(at 184.15 21.59 0)
+		(at 182.372 21.082 0)
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -6942,12 +6942,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "106929d9-e2fe-40e3-99b5-4ce8834d2577")
-	)
-	(junction
-		(at 186.69 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1689959b-d61b-41ea-8841-904e9392e7a7")
 	)
 	(junction
 		(at 240.03 132.08)
@@ -7124,12 +7118,6 @@
 		(uuid "a6fa76d9-e80a-4bf4-8fdf-501b613b7820")
 	)
 	(junction
-		(at 196.85 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aba982e0-778d-443a-a8d5-0e4fa565794b")
-	)
-	(junction
 		(at 205.74 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7262,12 +7250,6 @@
 		(uuid "f56075ff-8c1e-4157-8ea7-36926f8d6dd0")
 	)
 	(junction
-		(at 119.38 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f6cada3a-2ccd-42c4-ad4b-8e76980018fe")
-	)
-	(junction
 		(at 27.94 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7278,12 +7260,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f813dd8d-dc5e-4d1b-aa6e-970e6128fb62")
-	)
-	(junction
-		(at 191.77 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f9f6f731-8a72-4690-acc6-a8b0a1f0de74")
 	)
 	(junction
 		(at 119.38 57.15)
@@ -7382,16 +7358,6 @@
 			(type default)
 		)
 		(uuid "0aa52f7c-dc77-480d-a44a-b5ea8e86a6e8")
-	)
-	(wire
-		(pts
-			(xy 196.85 31.75) (xy 201.93 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b7b6e80-7ece-497f-9e8f-ef82fd9feacf")
 	)
 	(wire
 		(pts
@@ -8435,16 +8401,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 31.75) (xy 191.77 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98a46508-a65a-4796-b39e-a4922e274bbb")
-	)
-	(wire
-		(pts
 			(xy 119.38 38.1) (xy 124.46 38.1)
 		)
 		(stroke
@@ -8712,16 +8668,6 @@
 			(type default)
 		)
 		(uuid "b9036f92-3798-4a48-906e-58bb36bd4eea")
-	)
-	(wire
-		(pts
-			(xy 191.77 31.75) (xy 196.85 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbfd6c12-37a8-40f8-8004-cff355530e72")
 	)
 	(wire
 		(pts
@@ -9182,16 +9128,6 @@
 			(type default)
 		)
 		(uuid "fd2f6e33-fe61-4d12-8791-645cb7d41337")
-	)
-	(wire
-		(pts
-			(xy 119.38 86.36) (xy 124.46 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd4d275c-bd13-47ba-a9e5-3d428ca08070")
 	)
 	(wire
 		(pts
@@ -13729,85 +13665,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 201.93 29.21 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4ac7d3ab-ec3a-49db-8c47-a7a1db0f781a")
-		(property "Reference" "MH6"
-			(at 200.025 24.765 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 205.105 29.2099 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
-			(at 201.93 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 201.93 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "aaea953b-cefe-4d74-8802-096ced34dfdc")
-		)
-		(instances
-			(project "InfiniteRecon"
-				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/e2fa78bb-d2d2-41e6-a454-933065003d74"
-					(reference "MH6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:0402,100nF")
 		(at 34.29 163.83 0)
 		(unit 1)
@@ -17098,7 +16955,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7010ASV"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4110"
 			(at 34.29 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -18683,85 +18540,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 196.85 29.21 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c1397634-8eee-49cd-85d6-8c8011680d71")
-		(property "Reference" "MH5"
-			(at 194.945 24.765 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 200.025 29.2099 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
-			(at 196.85 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 196.85 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1823be9c-e0f6-497b-a570-4f0bd6903cd5")
-		)
-		(instances
-			(project "InfiniteRecon"
-				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/e2fa78bb-d2d2-41e6-a454-933065003d74"
-					(reference "MH5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 119.38 64.77 0)
 		(unit 1)
@@ -19104,7 +18882,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:R_0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 154.94 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -19147,85 +18925,6 @@
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/e2fa78bb-d2d2-41e6-a454-933065003d74"
 					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 191.77 29.21 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ca8dc81e-6082-407b-8f93-f6ef62538a1f")
-		(property "Reference" "MH4"
-			(at 189.865 24.765 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 194.945 29.2099 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
-			(at 191.77 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 191.77 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bd34da27-dfb6-4035-9d6c-390ae6732240")
-		)
-		(instances
-			(project "InfiniteRecon"
-				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/e2fa78bb-d2d2-41e6-a454-933065003d74"
-					(reference "MH4")
 					(unit 1)
 				)
 			)
@@ -21337,85 +21036,6 @@
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/e2fa78bb-d2d2-41e6-a454-933065003d74"
 					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 124.46 86.36 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ee614f6f-9a77-4ebc-b1d6-dc879a8411ba")
-		(property "Reference" "GND1"
-			(at 125.73 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 127 84.3279 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 129.54 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 124.46 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2def2a89-bcad-4f0c-88af-9a38f386eb0e")
-		)
-		(instances
-			(project "InfiniteRecon"
-				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/e2fa78bb-d2d2-41e6-a454-933065003d74"
-					(reference "GND1")
 					(unit 1)
 				)
 			)

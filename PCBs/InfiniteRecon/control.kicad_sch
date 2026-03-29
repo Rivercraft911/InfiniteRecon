@@ -9,6 +9,269 @@
 		(rev "1")
 	)
 	(lib_symbols
+		(symbol "Connector:Conn_01x04_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04_Pin"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x04_Pin_1_1"
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_Small_US"
 			(pin_numbers
 				(hide yes)
@@ -1980,7 +2243,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_JLCPCB-Connectors_Buttons:Tactile Button, 160gf, 12V, 50mA, 5.1mm"
+		(symbol "PCM_JLCPCB-Connectors_Buttons:Tactile Button, 160gf, 12V, 50mA, 4.0mm"
 			(pin_names
 				(hide yes)
 			)
@@ -2009,7 +2272,7 @@
 					)
 				)
 			)
-			(property "Footprint" "PCM_JLCPCB:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
+			(property "Footprint" "PCM_JLCPCB:SW_TS-1088-AR02016"
 				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2021,7 +2284,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_XKB-Connection-TS-1187A-B-A-B_C318884.pdf"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_XUNPU-TS-1088-AR02016_C720477.pdf"
 				(at -2.286 0.127 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2033,7 +2296,7 @@
 					(justify left)
 				)
 			)
-			(property "Description" "None Without 50mA 5.1mm 100000 Times 160gf 12V 5.1mm 1.5mm Round Button Standing paste SPST SMD Tactile Switches ROHS"
+			(property "Description" "Without 50mA 4mm 100MΩ 100000 Times 12V 160gf 3mm 2mm Round Button Standing paste SPST SMD Tactile Switches ROHS"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2044,7 +2307,7 @@
 					)
 				)
 			)
-			(property "LCSC" "C318884"
+			(property "LCSC" "C720477"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2055,7 +2318,7 @@
 					)
 				)
 			)
-			(property "Stock" "472664"
+			(property "Stock" "346801"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2066,7 +2329,7 @@
 					)
 				)
 			)
-			(property "Price" "0.025USD"
+			(property "Price" "0.044USD"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2088,7 +2351,7 @@
 					)
 				)
 			)
-			(property "Minimum Qty" "10"
+			(property "Minimum Qty" "5"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2099,7 +2362,7 @@
 					)
 				)
 			)
-			(property "Attrition Qty" "5"
+			(property "Attrition Qty" "4"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2132,7 +2395,7 @@
 					)
 				)
 			)
-			(property "Manufacturer" "XKB Connectivity"
+			(property "Manufacturer" "XUNPU"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2143,7 +2406,7 @@
 					)
 				)
 			)
-			(property "Part" "TS-1187A-B-A-B"
+			(property "Part" "TS-1088-AR02016"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2154,7 +2417,7 @@
 					)
 				)
 			)
-			(property "Switch Length" "5.1mm"
+			(property "Switch Length" "4mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2187,7 +2450,7 @@
 					)
 				)
 			)
-			(property "Operating Force" "160gf"
+			(property "Operating Force" "160gf@±50gf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2198,7 +2461,7 @@
 					)
 				)
 			)
-			(property "Actuator/Cap Color" "Golden"
+			(property "Actuator/Cap Color" "Black"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2242,7 +2505,7 @@
 					)
 				)
 			)
-			(property "Switch Height" "1.5mm"
+			(property "Switch Height" "2mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2264,7 +2527,7 @@
 					)
 				)
 			)
-			(property "Switch Width" "5.1mm"
+			(property "Switch Width" "3mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2286,7 +2549,7 @@
 					)
 				)
 			)
-			(property "Operating Temperature" "-30°C~+85°C"
+			(property "Operating Temperature" "-30°C~+80°C"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2308,7 +2571,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "C318884"
+			(property "Insulation Resistance" "100MΩ"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2319,31 +2582,29 @@
 					)
 				)
 			)
-			(symbol "Tactile Button, 160gf, 12V, 50mA, 5.1mm_0_1"
-				(polyline
-					(pts
-						(xy -2.54 2.54) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
+			(property "Pin Style" "SMDSplicing"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
-				(polyline
-					(pts
-						(xy -2.54 -5.08) (xy 2.54 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
+			)
+			(property "ki_keywords" "C720477"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
+			)
+			(symbol "Tactile Button, 160gf, 12V, 50mA, 4.0mm_0_1"
 				(polyline
 					(pts
 						(xy -0.508 0.762) (xy -1.27 -2.54)
@@ -2403,7 +2664,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -5.08 2.54 0)
+					(at 0 3.81 270)
 					(length 2.54)
 					(name "A"
 						(effects
@@ -2421,7 +2682,7 @@
 					)
 				)
 				(pin unspecified line
-					(at 5.08 2.54 180)
+					(at 0 -6.35 90)
 					(length 2.54)
 					(name "B"
 						(effects
@@ -2438,47 +2699,11 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at -5.08 -5.08 0)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 -5.08 180)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
 			)
-			(symbol "Tactile Button, 160gf, 12V, 50mA, 5.1mm_1_1"
+			(symbol "Tactile Button, 160gf, 12V, 50mA, 4.0mm_1_1"
 				(rectangle
-					(start -2.54 5.08)
-					(end 2.54 -7.62)
+					(start -2.032 2.032)
+					(end 1.524 -4.318)
 					(stroke
 						(width 0)
 						(type default)
@@ -3748,7 +3973,7 @@
 	)
 	(text "ESP32S3 N8R8 Wroom-1\n\n"
 		(exclude_from_sim no)
-		(at 85.09 53.34 0)
+		(at 81.28 51.562 0)
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -3796,6 +4021,16 @@
 		)
 		(uuid "6e053fb2-65ae-4053-b833-23a463d49baf")
 	)
+	(text "UART\n"
+		(exclude_from_sim no)
+		(at 230.886 94.234 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+		)
+		(uuid "93302084-08ff-4877-af91-19d64a263fdd")
+	)
 	(text "Watchdog\n"
 		(exclude_from_sim no)
 		(at 177.8 48.26 0)
@@ -3819,12 +4054,6 @@
 		(uuid "08fda485-dd25-481a-b829-dd45667e4f93")
 	)
 	(junction
-		(at 45.72 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2b145393-530e-414e-8e08-468b758dbcbe")
-	)
-	(junction
 		(at 153.67 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3835,12 +4064,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "31bab2e2-3c98-4008-8c59-b378cde1a69a")
-	)
-	(junction
-		(at 35.56 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3fa05cfa-20d5-426b-9879-19a465cfdbc8")
 	)
 	(junction
 		(at 232.41 63.5)
@@ -3858,7 +4081,7 @@
 		(at 45.72 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "522d0beb-fad5-4f78-9e14-00c2cd314a88")
+		(uuid "517b4058-6aa2-4753-beb4-09e6a5676381")
 	)
 	(junction
 		(at 49.53 83.82)
@@ -3867,28 +4090,10 @@
 		(uuid "52ef1489-93a5-430b-8ab9-8bf34eb07fa1")
 	)
 	(junction
-		(at 208.28 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "59e9940b-fee3-4645-8df0-e4616249d762")
-	)
-	(junction
 		(at 161.29 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5d820124-e36a-42d1-b141-9d417eb8ba7b")
-	)
-	(junction
-		(at 35.56 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "607ac437-b562-4bed-b314-66140ef746ac")
-	)
-	(junction
-		(at 45.72 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "61498774-5c59-4aa5-b2eb-fb75bb401439")
 	)
 	(junction
 		(at 252.73 63.5)
@@ -3957,6 +4162,12 @@
 		(uuid "cd486cae-5a7f-44a4-b424-e38f4e3563a1")
 	)
 	(junction
+		(at 35.56 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da9425fa-0ac3-4b86-b406-77b3cb46cc4b")
+	)
+	(junction
 		(at 148.59 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3986,12 +4197,6 @@
 		(color 0 0 0 0)
 		(uuid "f9ad1837-ff63-416b-9037-159159b181fc")
 	)
-	(junction
-		(at 35.56 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fde2cf8f-8a32-44a6-add2-4595bb5dd13f")
-	)
 	(no_connect
 		(at 67.31 87.63)
 		(uuid "07737345-72c7-4139-ad6f-f9f4104e1b78")
@@ -4001,16 +4206,8 @@
 		(uuid "0b50978f-e3f1-4432-98f2-a0b4ad4aecd6")
 	)
 	(no_connect
-		(at 97.79 77.47)
-		(uuid "15e03689-ffe2-4255-a174-2c9fef1dfd5b")
-	)
-	(no_connect
 		(at 97.79 110.49)
 		(uuid "1d56d289-a60c-4aab-a054-9243af98ca1a")
-	)
-	(no_connect
-		(at 97.79 74.93)
-		(uuid "28c29874-02be-40d0-b22b-826eb8762a06")
 	)
 	(no_connect
 		(at 168.91 124.46)
@@ -4079,16 +4276,6 @@
 			(type default)
 		)
 		(uuid "073b4b8d-7908-4765-bca5-e5b7bfc618ed")
-	)
-	(wire
-		(pts
-			(xy 35.56 97.79) (xy 35.56 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0820a5d5-cb1b-4fc5-aa99-fad26cb45349")
 	)
 	(wire
 		(pts
@@ -4169,6 +4356,16 @@
 			(type default)
 		)
 		(uuid "12751e97-bb34-4b8e-8979-e82071290b90")
+	)
+	(wire
+		(pts
+			(xy 45.72 72.39) (xy 45.72 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1566d3bb-4b27-4094-8388-105c8777d05b")
 	)
 	(wire
 		(pts
@@ -4282,6 +4479,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 105.41) (xy 247.65 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b23c979-cf4c-4372-8eb4-5d52ae75d56b")
+	)
+	(wire
+		(pts
 			(xy 153.67 91.44) (xy 153.67 95.25)
 		)
 		(stroke
@@ -4332,16 +4539,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 63.5) (xy 45.72 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a058563-62bc-4a8d-a486-a4c2e031c9e0")
-	)
-	(wire
-		(pts
 			(xy 102.87 109.22) (xy 102.87 107.95)
 		)
 		(stroke
@@ -4359,6 +4556,16 @@
 			(type default)
 		)
 		(uuid "403aefd5-4619-4ea2-bb89-da5b4f7a2850")
+	)
+	(wire
+		(pts
+			(xy 238.76 104.14) (xy 240.03 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4139d104-623e-4de8-ae6a-a769ddf604ba")
 	)
 	(wire
 		(pts
@@ -4412,6 +4619,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 72.39) (xy 35.56 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49968bf5-7007-4441-8e62-abc6ea57da6e")
+	)
+	(wire
+		(pts
 			(xy 168.91 114.3) (xy 163.83 114.3)
 		)
 		(stroke
@@ -4419,16 +4636,6 @@
 			(type default)
 		)
 		(uuid "4bc96bd1-607e-4c68-9adc-1c5b32146a9c")
-	)
-	(wire
-		(pts
-			(xy 45.72 71.12) (xy 45.72 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d1e3f92-2cd8-426c-a9ed-541a41cf21aa")
 	)
 	(wire
 		(pts
@@ -4532,16 +4739,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 60.96) (xy 208.28 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6cb983bf-28c0-4789-8691-2d973cb3fac2")
-	)
-	(wire
-		(pts
 			(xy 66.04 120.65) (xy 67.31 120.65)
 		)
 		(stroke
@@ -4562,16 +4759,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 71.12) (xy 35.56 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "754dfca4-fce3-4063-a706-fbf65e453182")
-	)
-	(wire
-		(pts
 			(xy 66.04 118.11) (xy 67.31 118.11)
 		)
 		(stroke
@@ -4589,6 +4776,16 @@
 			(type default)
 		)
 		(uuid "758ff998-ead2-4a3b-a466-4c2f955c871f")
+	)
+	(wire
+		(pts
+			(xy 97.79 77.47) (xy 99.06 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76a2b885-34bb-457e-8386-4298ef35a191")
 	)
 	(wire
 		(pts
@@ -4732,16 +4929,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 97.79) (xy 35.56 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9695d143-c9de-402a-b11f-fa1907cc6021")
-	)
-	(wire
-		(pts
 			(xy 74.93 68.58) (xy 80.01 68.58)
 		)
 		(stroke
@@ -4832,6 +5019,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 90.17) (xy 35.56 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6b19380-7255-4687-927d-78b438272763")
+	)
+	(wire
+		(pts
 			(xy 63.5 72.39) (xy 63.5 74.93)
 		)
 		(stroke
@@ -4882,13 +5079,13 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 63.5) (xy 210.82 63.5)
+			(xy 238.76 99.06) (xy 241.3 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b2959884-a74a-42f3-b600-751a27ec76f9")
+		(uuid "b04f56ee-36a2-4f0c-9fa4-dd1c441c570b")
 	)
 	(wire
 		(pts
@@ -4909,6 +5106,16 @@
 			(type default)
 		)
 		(uuid "b4d39e14-9b4e-45da-9655-eace045b0ed1")
+	)
+	(wire
+		(pts
+			(xy 238.76 101.6) (xy 240.03 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7f32abc-a276-472e-a62e-66e10377dde5")
 	)
 	(wire
 		(pts
@@ -4959,16 +5166,6 @@
 			(type default)
 		)
 		(uuid "c380f899-a48e-4d71-b098-e43a97e114cf")
-	)
-	(wire
-		(pts
-			(xy 208.28 54.61) (xy 208.28 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c43e7b73-cc02-4ce5-b0ed-0a3ee285ba4a")
 	)
 	(wire
 		(pts
@@ -5052,17 +5249,17 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 97.79) (xy 45.72 90.17)
+			(xy 97.79 74.93) (xy 99.06 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d86a5bc6-3fab-4ba3-b0ad-f9a7e1abc190")
+		(uuid "dbc0b1b9-8e8a-44a1-8f5e-ac346210266b")
 	)
 	(wire
 		(pts
-			(xy 207.01 63.5) (xy 208.28 63.5)
+			(xy 207.01 63.5) (xy 210.82 63.5)
 		)
 		(stroke
 			(width 0)
@@ -5089,6 +5286,16 @@
 			(type default)
 		)
 		(uuid "dfb4aecd-5acd-40b9-a70d-bd5f8f97b3f5")
+	)
+	(wire
+		(pts
+			(xy 241.3 99.06) (xy 241.3 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0737f3b-bab7-494a-aa63-0051a37f526c")
 	)
 	(wire
 		(pts
@@ -5132,6 +5339,26 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 96.52) (xy 243.84 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eddbaa59-74a1-4496-99e2-8a7a045e81c3")
+	)
+	(wire
+		(pts
+			(xy 247.65 106.68) (xy 238.76 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0f30cf7-c7ee-412b-b7fc-7793aa637720")
+	)
+	(wire
+		(pts
 			(xy 165.1 68.58) (xy 166.37 68.58)
 		)
 		(stroke
@@ -5149,16 +5376,6 @@
 			(type default)
 		)
 		(uuid "fbb1ea10-f86d-4133-bfaa-df4121a436c2")
-	)
-	(wire
-		(pts
-			(xy 35.56 63.5) (xy 35.56 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fed302cc-a3aa-429f-823e-6e9895b2e825")
 	)
 	(global_label "MIC_WAKE"
 		(shape input)
@@ -5197,6 +5414,30 @@
 		(uuid "0d510bf3-9fb5-4769-9272-984171934519")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 110.0598 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "RX"
+		(shape input)
+		(at 240.03 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0d566692-495f-48f3-bbbf-fb2ee76d4ada")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 245.4947 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5397,6 +5638,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "TX"
+		(shape input)
+		(at 99.06 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5b30b848-6ccd-4ffa-9b49-85ad9ea853ba")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 104.2223 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -5760,6 +6025,30 @@
 			)
 		)
 	)
+	(global_label "RX"
+		(shape output)
+		(at 99.06 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c5a6a646-caee-4dca-ada6-c618d7da557d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 104.5247 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "SCK"
 		(shape output)
 		(at 64.77 105.41 180)
@@ -5856,6 +6145,30 @@
 			)
 		)
 	)
+	(global_label "TX"
+		(shape output)
+		(at 240.03 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ebed1abe-5ac8-40cd-84f4-3f9413e76765")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 245.1923 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "TDM_SDOUT"
 		(shape input)
 		(at 66.04 115.57 180)
@@ -5949,6 +6262,376 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Connectors_Buttons:Tactile Button, 160gf, 12V, 50mA, 4.0mm")
+		(at 39.37 72.39 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0f9b0d64-9744-47b6-a939-f5265f5c8bb0")
+		(property "Reference" "S1"
+			(at 38.608 69.596 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Tactile Button, 160gf"
+			(at 48.26 73.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:SW_TS-1088-AR02016"
+			(at 49.53 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_XUNPU-TS-1088-AR02016_C720477.pdf"
+			(at 39.243 74.676 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Without 50mA 4mm 100MΩ 100000 Times 12V 160gf 3mm 2mm Round Button Standing paste SPST SMD Tactile Switches ROHS"
+			(at 39.37 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C720477"
+			(at 39.37 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Stock" "346801"
+			(at 39.37 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.044USD"
+			(at 39.37 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Process" "SMT"
+			(at 39.37 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Minimum Qty" "5"
+			(at 39.37 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Attrition Qty" "4"
+			(at 39.37 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 39.37 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Category" "Switches,Tactile Switches"
+			(at 39.37 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XUNPU"
+			(at 39.37 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "TS-1088-AR02016"
+			(at 39.37 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Switch Length" "4mm"
+			(at 39.37 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating (Dc)" "12V"
+			(at 39.37 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "With Lamp" "No"
+			(at 39.37 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Operating Force" "160gf@±50gf"
+			(at 39.37 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Actuator/Cap Color" "Black"
+			(at 39.37 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mechanical Life" "100000 Times"
+			(at 39.37 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Strike Gundam" "NO"
+			(at 39.37 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Circuit" "SPST"
+			(at 39.37 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Switch Height" "2mm"
+			(at 39.37 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Actuator Style" "Round Button"
+			(at 39.37 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Switch Width" "3mm"
+			(at 39.37 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Contact Current" "50mA"
+			(at 39.37 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Operating Temperature" "-30°C~+80°C"
+			(at 39.37 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mounting Style" "Brick nogging"
+			(at 39.37 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Insulation Resistance" "100MΩ"
+			(at 39.37 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pin Style" "SMDSplicing"
+			(at 39.37 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "54b319ee-2b55-464c-9774-d345f5024c70")
+		)
+		(pin "2"
+			(uuid "27b599c7-8b10-4266-915a-a623a12d7339")
+		)
+		(instances
+			(project "InfiniteRecon"
+				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/76707817-d5e8-4adf-8437-8bb113ba0835"
+					(reference "S1")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -6104,6 +6787,91 @@
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/76707817-d5e8-4adf-8437-8bb113ba0835"
 					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 233.68 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "282af031-dd1b-4e3a-bef7-f0bb6d0448c5")
+		(property "Reference" "J2"
+			(at 234.188 96.774 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04_Pin"
+			(at 234.315 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal"
+			(at 233.68 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 233.68 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4eed7650-ff94-4152-901b-a66381940778")
+		)
+		(pin "3"
+			(uuid "3549b3a6-4bbf-4a93-b92e-5322dd69797f")
+		)
+		(pin "4"
+			(uuid "7dd4c5e3-d3e2-45a9-914a-30ec3b828677")
+		)
+		(pin "2"
+			(uuid "e4f7601d-a1e9-4b94-a424-b8f2e04acd63")
+		)
+		(instances
+			(project "InfiniteRecon"
+				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/76707817-d5e8-4adf-8437-8bb113ba0835"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -6801,7 +7569,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5159eda2-0647-4cc5-b414-38928f2f7127")
-		(property "Reference" "R25"
+		(property "Reference" "R24"
 			(at 229.235 65.405 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6863,7 +7631,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/76707817-d5e8-4adf-8437-8bb113ba0835"
-					(reference "R25")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -7342,6 +8110,376 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_JLCPCB-Connectors_Buttons:Tactile Button, 160gf, 12V, 50mA, 4.0mm")
+		(at 39.37 90.17 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "580535e4-94e9-43ec-b13f-a3d153080006")
+		(property "Reference" "S2"
+			(at 38.608 87.376 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Tactile Button, 160gf"
+			(at 48.26 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:SW_TS-1088-AR02016"
+			(at 49.53 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_XUNPU-TS-1088-AR02016_C720477.pdf"
+			(at 39.243 92.456 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Without 50mA 4mm 100MΩ 100000 Times 12V 160gf 3mm 2mm Round Button Standing paste SPST SMD Tactile Switches ROHS"
+			(at 39.37 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C720477"
+			(at 39.37 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Stock" "346801"
+			(at 39.37 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.044USD"
+			(at 39.37 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Process" "SMT"
+			(at 39.37 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Minimum Qty" "5"
+			(at 39.37 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Attrition Qty" "4"
+			(at 39.37 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 39.37 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Category" "Switches,Tactile Switches"
+			(at 39.37 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XUNPU"
+			(at 39.37 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "TS-1088-AR02016"
+			(at 39.37 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Switch Length" "4mm"
+			(at 39.37 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rating (Dc)" "12V"
+			(at 39.37 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "With Lamp" "No"
+			(at 39.37 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Operating Force" "160gf@±50gf"
+			(at 39.37 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Actuator/Cap Color" "Black"
+			(at 39.37 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mechanical Life" "100000 Times"
+			(at 39.37 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Strike Gundam" "NO"
+			(at 39.37 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Circuit" "SPST"
+			(at 39.37 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Switch Height" "2mm"
+			(at 39.37 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Actuator Style" "Round Button"
+			(at 39.37 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Switch Width" "3mm"
+			(at 39.37 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Contact Current" "50mA"
+			(at 39.37 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Operating Temperature" "-30°C~+80°C"
+			(at 39.37 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mounting Style" "Brick nogging"
+			(at 39.37 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Insulation Resistance" "100MΩ"
+			(at 39.37 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Pin Style" "SMDSplicing"
+			(at 39.37 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "14c64bc4-b1bd-491b-991d-6f3280672e2b")
+		)
+		(pin "2"
+			(uuid "de3f4afa-1d46-4c46-ab3f-80af935c4b68")
+		)
+		(instances
+			(project "InfiniteRecon"
+				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/76707817-d5e8-4adf-8437-8bb113ba0835"
+					(reference "S2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 148.59 97.79 0)
 		(unit 1)
@@ -7415,434 +8553,6 @@
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/76707817-d5e8-4adf-8437-8bb113ba0835"
 					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 208.28 54.61 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "62c8e08b-78f3-4e20-bab8-d46dfb738a43")
-		(property "Reference" "#PWR060"
-			(at 208.28 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3V3"
-			(at 208.28 51.054 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 208.28 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 208.28 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 208.28 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ab51834b-c75d-435b-835b-a8a802f86c82")
-		)
-		(instances
-			(project "InfiniteRecon"
-				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/76707817-d5e8-4adf-8437-8bb113ba0835"
-					(reference "#PWR060")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_JLCPCB-Connectors_Buttons:Tactile Button, 160gf, 12V, 50mA, 5.1mm")
-		(at 40.64 92.71 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "66abb94a-f4ea-472d-9044-a7dbb21db3bc")
-		(property "Reference" "S2"
-			(at 38.735 85.725 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BOOT"
-			(at 42.545 86.36 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
-			(at 40.64 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_XKB-Connection-TS-1187A-B-A-B_C318884.pdf"
-			(at 38.354 92.583 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "None Without 50mA 5.1mm 100000 Times 160gf 12V 5.1mm 1.5mm Round Button Standing paste SPST SMD Tactile Switches ROHS"
-			(at 40.64 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C318884"
-			(at 40.64 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Stock" "472664"
-			(at 40.64 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" "0.025USD"
-			(at 40.64 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Process" "SMT"
-			(at 40.64 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Minimum Qty" "10"
-			(at 40.64 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Attrition Qty" "5"
-			(at 40.64 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Class" "Basic Component"
-			(at 40.64 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Category" "Switches,Tactile Switches"
-			(at 40.64 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "XKB Connectivity"
-			(at 40.64 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part" "TS-1187A-B-A-B"
-			(at 40.64 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Switch Length" "5.1mm"
-			(at 40.64 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage Rating (Dc)" "12V"
-			(at 40.64 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "With Lamp" "No"
-			(at 40.64 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Operating Force" "160gf"
-			(at 40.64 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Actuator/Cap Color" "Golden"
-			(at 40.64 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mechanical Life" "100000 Times"
-			(at 40.64 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Strike Gundam" "NO"
-			(at 40.64 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Circuit" "SPST"
-			(at 40.64 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Switch Height" "1.5mm"
-			(at 40.64 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Actuator Style" "Round Button"
-			(at 40.64 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Switch Width" "5.1mm"
-			(at 40.64 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Contact Current" "50mA"
-			(at 40.64 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Operating Temperature" "-30°C~+85°C"
-			(at 40.64 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mounting Style" "Brick nogging"
-			(at 40.64 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "972a565e-eafd-4cb0-ad4e-41dd1d300df7")
-		)
-		(pin "2"
-			(uuid "18cfc32f-3ae0-49c0-80d1-34b44511279d")
-		)
-		(pin "1"
-			(uuid "67e4a707-2593-4c9a-8e46-16d6496c5219")
-		)
-		(pin "4"
-			(uuid "38ee0f2d-f13c-492e-80f3-1edb1f970194")
-		)
-		(instances
-			(project "InfiniteRecon"
-				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/76707817-d5e8-4adf-8437-8bb113ba0835"
-					(reference "S2")
 					(unit 1)
 				)
 			)
@@ -7939,7 +8649,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7269418a-f8ed-4a66-b685-05085d739e25")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR060"
 			(at 213.36 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -8000,7 +8710,86 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/76707817-d5e8-4adf-8437-8bb113ba0835"
-					(reference "#PWR061")
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 243.84 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73a68bcc-b5de-4c95-bbcc-435e6175de16")
+		(property "Reference" "#PWR062"
+			(at 243.84 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 243.84 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 243.84 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1f42aad5-0235-4c9c-ab7e-2187b49d4aa0")
+		)
+		(instances
+			(project "InfiniteRecon"
+				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/76707817-d5e8-4adf-8437-8bb113ba0835"
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -8017,7 +8806,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7670e549-4522-4c78-8a08-a8c3e4d5cd2c")
-		(property "Reference" "R26"
+		(property "Reference" "R25"
 			(at 239.395 65.405 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8079,7 +8868,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/76707817-d5e8-4adf-8437-8bb113ba0835"
-					(reference "R26")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -9058,7 +9847,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:R_0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 168.91 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -9288,87 +10077,6 @@
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/76707817-d5e8-4adf-8437-8bb113ba0835"
 					(reference "R23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 208.28 58.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a1c5a94d-b510-4140-9d0e-f32f5d40615e")
-		(property "Reference" "R24"
-			(at 203.835 56.515 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100K"
-			(at 209.55 56.515 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:R_0402"
-			(at 208.28 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 208.28 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 208.28 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0ff4be44-975b-4248-9d26-eedfc1a8991c")
-		)
-		(pin "2"
-			(uuid "6a061b57-24d5-47a7-a92e-8464bde1b79c")
-		)
-		(instances
-			(project "InfiniteRecon"
-				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/76707817-d5e8-4adf-8437-8bb113ba0835"
-					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -9700,7 +10408,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a5b7e2e3-57e8-4427-a5f3-d99f1486a53a")
-		(property "Reference" "R28"
+		(property "Reference" "R27"
 			(at 260.985 65.405 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9762,7 +10470,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/76707817-d5e8-4adf-8437-8bb113ba0835"
-					(reference "R28")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -9880,7 +10588,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:R_0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 102.87 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -9923,357 +10631,6 @@
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/76707817-d5e8-4adf-8437-8bb113ba0835"
 					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_JLCPCB-Connectors_Buttons:Tactile Button, 160gf, 12V, 50mA, 5.1mm")
-		(at 40.64 66.04 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c706e9aa-2ebe-4d67-af08-f52f62230602")
-		(property "Reference" "S1"
-			(at 38.735 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RESET"
-			(at 43.18 59.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" "PCM_JLCPCB:SW-SMD_4P-L5.1-W5.1-P3.70-LS6.5-TL-2"
-			(at 40.64 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_XKB-Connection-TS-1187A-B-A-B_C318884.pdf"
-			(at 38.354 65.913 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "None Without 50mA 5.1mm 100000 Times 160gf 12V 5.1mm 1.5mm Round Button Standing paste SPST SMD Tactile Switches ROHS"
-			(at 40.64 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C318884"
-			(at 40.64 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Stock" "472664"
-			(at 40.64 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Price" "0.025USD"
-			(at 40.64 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Process" "SMT"
-			(at 40.64 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Minimum Qty" "10"
-			(at 40.64 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Attrition Qty" "5"
-			(at 40.64 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Class" "Basic Component"
-			(at 40.64 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Category" "Switches,Tactile Switches"
-			(at 40.64 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "XKB Connectivity"
-			(at 40.64 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Part" "TS-1187A-B-A-B"
-			(at 40.64 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Switch Length" "5.1mm"
-			(at 40.64 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage Rating (Dc)" "12V"
-			(at 40.64 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "With Lamp" "No"
-			(at 40.64 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Operating Force" "160gf"
-			(at 40.64 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Actuator/Cap Color" "Golden"
-			(at 40.64 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mechanical Life" "100000 Times"
-			(at 40.64 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Strike Gundam" "NO"
-			(at 40.64 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Circuit" "SPST"
-			(at 40.64 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Switch Height" "1.5mm"
-			(at 40.64 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Actuator Style" "Round Button"
-			(at 40.64 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Switch Width" "5.1mm"
-			(at 40.64 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Contact Current" "50mA"
-			(at 40.64 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Operating Temperature" "-30°C~+85°C"
-			(at 40.64 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mounting Style" "Brick nogging"
-			(at 40.64 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "251294ea-2714-420b-8deb-203b34083d06")
-		)
-		(pin "2"
-			(uuid "7ed128ec-7d6a-4cdb-ab27-4dc961f67141")
-		)
-		(pin "1"
-			(uuid "d01398be-f7b5-4a75-8cf4-4bc4eb9da5bf")
-		)
-		(pin "4"
-			(uuid "b3ed8f85-8a8e-4c9c-9368-1ed05769789c")
-		)
-		(instances
-			(project "InfiniteRecon"
-				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/76707817-d5e8-4adf-8437-8bb113ba0835"
-					(reference "S1")
 					(unit 1)
 				)
 			)
@@ -10707,7 +11064,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d3cb11a6-0f16-48f8-90f6-6490f0cb5429")
-		(property "Reference" "R27"
+		(property "Reference" "R26"
 			(at 249.555 65.405 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10769,7 +11126,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/76707817-d5e8-4adf-8437-8bb113ba0835"
-					(reference "R27")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -10786,7 +11143,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d7f31775-de59-4f8e-b906-4ad19139e8b0")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR064"
 			(at 252.73 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -10846,7 +11203,7 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/76707817-d5e8-4adf-8437-8bb113ba0835"
-					(reference "#PWR063")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -10854,7 +11211,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 35.56 100.33 0)
+		(at 35.56 92.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10864,7 +11221,7 @@
 		(dnp no)
 		(uuid "de0fcd56-140b-42ff-80c1-f4183023fa4c")
 		(property "Reference" "#PWR046"
-			(at 35.56 106.68 0)
+			(at 35.56 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10875,7 +11232,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 35.56 104.14 0)
+			(at 35.56 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10886,7 +11243,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 100.33 0)
+			(at 35.56 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10897,7 +11254,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 100.33 0)
+			(at 35.56 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10908,7 +11265,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 35.56 100.33 0)
+			(at 35.56 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11339,7 +11696,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f2217d28-bbff-4196-8037-c5d988bf65af")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR061"
 			(at 232.41 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -11399,7 +11756,84 @@
 		(instances
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/76707817-d5e8-4adf-8437-8bb113ba0835"
-					(reference "#PWR062")
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 247.65 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f79811b6-5d05-4fd3-9e82-6412c002ff7d")
+		(property "Reference" "#PWR063"
+			(at 247.65 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3"
+			(at 247.65 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 247.65 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bf3c0364-2d83-464d-8c29-f85aca6f79a7")
+		)
+		(instances
+			(project "InfiniteRecon"
+				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/76707817-d5e8-4adf-8437-8bb113ba0835"
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
