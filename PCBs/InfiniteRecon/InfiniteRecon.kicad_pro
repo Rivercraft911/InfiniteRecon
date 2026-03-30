@@ -135,7 +135,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.1,
+        "min_clearance": 0.15,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
@@ -148,7 +148,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.2,
-        "min_track_width": 0.1,
+        "min_track_width": 0.125,
         "min_via_annular_width": 0.2,
         "min_via_diameter": 0.35,
         "solder_mask_to_copper_clearance": 0.0,
@@ -200,7 +200,10 @@
       ],
       "track_widths": [
         0.0,
+        0.15,
+        0.2,
         0.3,
+        0.4,
         0.5
       ],
       "tuning_pattern_settings": {
@@ -503,7 +506,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -676,7 +679,7 @@
         "uuid": "4b53e0c9-94bf-49c7-970e-b079d561503a"
       }
     ],
-    "used_designators": "TP_VSOL_EXT1,TP_VBUS1,TP_3V3_SW1,TP_3V1,TP_1V8_SW1,TP_VSOL1,TP_1V1-2,SC1-3,BT1,R1-38,MH1-3,L1,TP_SYS1,#FLG1-10,SIM1,S1-3,#PWR1-98,D1-6,U1-11,C1-43,MK1-7,J1-2",
+    "used_designators": "C44-45,#PWR97-98",
     "variants": []
   },
   "sheets": [

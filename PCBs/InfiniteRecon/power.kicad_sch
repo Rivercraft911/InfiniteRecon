@@ -6962,6 +6962,12 @@
 		(uuid "1fec08db-59b4-44d0-886f-9e5636c3cc3c")
 	)
 	(junction
+		(at 34.29 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25694a7f-be4f-4d42-bf62-2fdf28041921")
+	)
+	(junction
 		(at 154.94 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7034,6 +7040,12 @@
 		(uuid "543d4ffb-083a-412b-b7cb-095a3bb98cf6")
 	)
 	(junction
+		(at 40.64 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "584d557d-fc4c-4a14-9e8d-6039c15433f4")
+	)
+	(junction
 		(at 200.66 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7080,6 +7092,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ae0194b-01e6-4d86-8952-f2a691889abf")
+	)
+	(junction
+		(at 40.64 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "860c0f87-744f-4a36-a826-c6984bd4de18")
 	)
 	(junction
 		(at 119.38 72.39)
@@ -7212,6 +7230,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "db85a96b-018f-4e06-81cb-d0f6ebdf278e")
+	)
+	(junction
+		(at 34.29 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e37e5216-a9f7-425a-83e9-f817a89e1f88")
 	)
 	(junction
 		(at 158.75 123.19)
@@ -7491,6 +7515,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 167.64) (xy 46.99 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d2f00a1-152b-4241-882f-4049afb85f21")
+	)
+	(wire
+		(pts
 			(xy 181.61 31.75) (xy 186.69 31.75)
 		)
 		(stroke
@@ -7661,6 +7695,16 @@
 	)
 	(wire
 		(pts
+			(xy 34.29 160.02) (xy 40.64 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45732243-711d-4410-bf97-a2dce72847cb")
+	)
+	(wire
+		(pts
 			(xy 119.38 57.15) (xy 124.46 57.15)
 		)
 		(stroke
@@ -7808,6 +7852,16 @@
 			(type default)
 		)
 		(uuid "54652340-5eb5-42dd-a17d-6aedd7f8d3b7")
+	)
+	(wire
+		(pts
+			(xy 34.29 167.64) (xy 40.64 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "555f26be-bf52-4748-8428-6162dc3df8cd")
 	)
 	(wire
 		(pts
@@ -8201,6 +8255,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 160.02) (xy 54.61 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "869ebcf3-137b-448f-83d7-af71168576eb")
+	)
+	(wire
+		(pts
 			(xy 62.23 109.22) (xy 59.69 109.22)
 		)
 		(stroke
@@ -8471,16 +8535,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 154.94) (xy 111.76 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f578422-4d55-43e8-977e-1281d50dbaa6")
-	)
-	(wire
-		(pts
 			(xy 116.84 123.19) (xy 116.84 120.65)
 		)
 		(stroke
@@ -8528,6 +8582,16 @@
 			(type default)
 		)
 		(uuid "a22591fc-5766-43bb-8b71-64a5dae19b50")
+	)
+	(wire
+		(pts
+			(xy 40.64 160.02) (xy 46.99 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a419d6a1-8892-4b98-9b72-56bd053c6feb")
 	)
 	(wire
 		(pts
@@ -8668,6 +8732,16 @@
 			(type default)
 		)
 		(uuid "b9036f92-3798-4a48-906e-58bb36bd4eea")
+	)
+	(wire
+		(pts
+			(xy 54.61 168.91) (xy 54.61 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba553f88-ec5b-4e21-af43-2d0c678026c2")
 	)
 	(wire
 		(pts
@@ -9098,16 +9172,6 @@
 			(type default)
 		)
 		(uuid "f872fa46-6622-40ab-b20d-150ef2dbfec6")
-	)
-	(wire
-		(pts
-			(xy 111.76 146.05) (xy 111.76 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f94dbd9c-8a9c-4b3c-8f90-15313abc8ceb")
 	)
 	(wire
 		(pts
@@ -10543,85 +10607,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 111.76 154.94 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "13a8450b-620a-4f06-91de-e4c4bbf9abf7")
-		(property "Reference" "#PWR016"
-			(at 111.76 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 111.76 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.76 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 111.76 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5efabbf4-0fc2-487e-a3b3-d69ca1e63eae")
-		)
-		(instances
-			(project "InfiniteRecon"
-				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/e2fa78bb-d2d2-41e6-a454-933065003d74"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 124.46 31.75 0)
 		(unit 1)
@@ -10722,8 +10707,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "600"
-			(at 62.992 123.952 0)
+		(property "Value" "1K"
+			(at 63.5 123.952 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10756,6 +10741,17 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 67.31 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C11702"
 			(at 67.31 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -11643,6 +11639,242 @@
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/e2fa78bb-d2d2-41e6-a454-933065003d74"
 					(reference "TP_3V3_SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_JLCPCB-Capacitors:0402,100nF")
+		(at 54.61 163.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2a4c637c-80f4-4ff6-a0c4-80349e5d334c")
+		(property "Reference" "C44"
+			(at 49.784 161.798 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 50.8 165.608 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:C_0402"
+			(at 52.832 163.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
+			(at 54.61 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "16V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 54.61 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 54.61 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Stock" "20208285"
+			(at 54.61 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.004USD"
+			(at 54.61 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Process" "SMT"
+			(at 54.61 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 54.61 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 54.61 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 54.61 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
+			(at 54.61 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 54.61 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "CL05B104KO5NNNC"
+			(at 54.61 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" "16V"
+			(at 57.15 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 54.61 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" "100nF"
+			(at 54.61 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature Coefficient" "X7R"
+			(at 54.61 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0a82ba27-65e6-449b-a1b0-1cd2a229b767")
+		)
+		(pin "2"
+			(uuid "5054d82d-0f0b-41f2-b045-d58e271341c4")
+		)
+		(instances
+			(project "InfiniteRecon"
+				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/e2fa78bb-d2d2-41e6-a454-933065003d74"
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -16219,7 +16451,7 @@
 	)
 	(symbol
 		(lib_id "PCM_JLCPCB-Capacitors:0402,100nF")
-		(at 111.76 149.86 0)
+		(at 46.99 163.83 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16229,7 +16461,7 @@
 		(dnp no)
 		(uuid "7f09cb76-836b-4bd7-9b9d-011c26c7132e")
 		(property "Reference" "C6"
-			(at 106.934 147.828 0)
+			(at 42.164 161.798 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16240,7 +16472,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 107.95 151.638 0)
+			(at 43.18 165.608 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16251,7 +16483,7 @@
 			)
 		)
 		(property "Footprint" "PCM_JLCPCB:C_0402"
-			(at 109.982 149.86 90)
+			(at 45.212 163.83 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16262,7 +16494,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
-			(at 111.76 149.86 0)
+			(at 46.99 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16273,7 +16505,7 @@
 			)
 		)
 		(property "Description" "16V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 111.76 149.86 0)
+			(at 46.99 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16284,7 +16516,7 @@
 			)
 		)
 		(property "LCSC" "C1525"
-			(at 111.76 149.86 0)
+			(at 46.99 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16295,7 +16527,7 @@
 			)
 		)
 		(property "Stock" "20208285"
-			(at 111.76 149.86 0)
+			(at 46.99 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16306,7 +16538,7 @@
 			)
 		)
 		(property "Price" "0.004USD"
-			(at 111.76 149.86 0)
+			(at 46.99 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16317,7 +16549,7 @@
 			)
 		)
 		(property "Process" "SMT"
-			(at 111.76 149.86 0)
+			(at 46.99 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16328,7 +16560,7 @@
 			)
 		)
 		(property "Minimum Qty" "20"
-			(at 111.76 149.86 0)
+			(at 46.99 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16339,7 +16571,7 @@
 			)
 		)
 		(property "Attrition Qty" "10"
-			(at 111.76 149.86 0)
+			(at 46.99 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16350,7 +16582,7 @@
 			)
 		)
 		(property "Class" "Basic Component"
-			(at 111.76 149.86 0)
+			(at 46.99 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16361,7 +16593,7 @@
 			)
 		)
 		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-			(at 111.76 149.86 0)
+			(at 46.99 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16372,7 +16604,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 111.76 149.86 0)
+			(at 46.99 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16383,7 +16615,7 @@
 			)
 		)
 		(property "Part" "CL05B104KO5NNNC"
-			(at 111.76 149.86 0)
+			(at 46.99 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16394,7 +16626,7 @@
 			)
 		)
 		(property "Voltage Rated" "16V"
-			(at 114.3 152.4 0)
+			(at 49.53 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16406,7 +16638,7 @@
 			)
 		)
 		(property "Tolerance" "±10%"
-			(at 111.76 149.86 0)
+			(at 46.99 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16417,7 +16649,7 @@
 			)
 		)
 		(property "Capacitance" "100nF"
-			(at 111.76 149.86 0)
+			(at 46.99 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16428,7 +16660,7 @@
 			)
 		)
 		(property "Temperature Coefficient" "X7R"
-			(at 111.76 149.86 0)
+			(at 46.99 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16527,83 +16759,6 @@
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/e2fa78bb-d2d2-41e6-a454-933065003d74"
 					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 111.76 144.78 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8a37f16e-ab33-4417-805a-cf01e6fb05f5")
-		(property "Reference" "#PWR015"
-			(at 111.76 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3V3"
-			(at 110.49 141.732 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.76 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 111.76 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "caa903ba-f9a4-4ab7-aab5-6eb361daf70c")
-		)
-		(instances
-			(project "InfiniteRecon"
-				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/e2fa78bb-d2d2-41e6-a454-933065003d74"
-					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -16955,7 +17110,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4110"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 34.29 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -17679,6 +17834,242 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_JLCPCB-Capacitors:0402,100nF")
+		(at 40.64 163.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a9893a15-9e04-4a18-a7cf-cf21e07be1c1")
+		(property "Reference" "C45"
+			(at 35.814 161.798 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 36.83 165.608 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_JLCPCB:C_0402"
+			(at 38.862 163.83 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
+			(at 40.64 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "16V 100nF X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+			(at 40.64 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 40.64 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Stock" "20208285"
+			(at 40.64 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Price" "0.004USD"
+			(at 40.64 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Process" "SMT"
+			(at 40.64 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Minimum Qty" "20"
+			(at 40.64 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Attrition Qty" "10"
+			(at 40.64 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Class" "Basic Component"
+			(at 40.64 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Category" "Capacitors,Multilayer Ceramic Capacitors MLCC - SMD/SMT"
+			(at 40.64 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 40.64 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part" "CL05B104KO5NNNC"
+			(at 40.64 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage Rated" "16V"
+			(at 43.18 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Tolerance" "±10%"
+			(at 40.64 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Capacitance" "100nF"
+			(at 40.64 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Temperature Coefficient" "X7R"
+			(at 40.64 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9e3a6283-2f23-4348-9daf-402e2d335259")
+		)
+		(pin "2"
+			(uuid "f703f781-edb4-4c5a-a10d-2254e369979c")
+		)
+		(instances
+			(project "InfiniteRecon"
+				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/e2fa78bb-d2d2-41e6-a454-933065003d74"
+					(reference "C45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 41.91 106.68 0)
 		(unit 1)
@@ -18305,6 +18696,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 54.61 158.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bc396400-0b6c-4707-9ee6-1aab80367147")
+		(property "Reference" "#PWR097"
+			(at 54.61 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SYS"
+			(at 54.61 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 54.61 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1825bcaf-5fd9-4dc3-b593-f2085ca82ad5")
+		)
+		(instances
+			(project "InfiniteRecon"
+				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/e2fa78bb-d2d2-41e6-a454-933065003d74"
+					(reference "#PWR097")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 116.84 118.11 180)
 		(unit 1)
@@ -18611,6 +19079,85 @@
 			(project "InfiniteRecon"
 				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/e2fa78bb-d2d2-41e6-a454-933065003d74"
 					(reference "#FLG07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 54.61 168.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2b01ccb-2d1b-4820-8c32-a43103b6121a")
+		(property "Reference" "#PWR098"
+			(at 54.61 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 54.61 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 54.61 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "daed02bf-435e-4b43-98b1-015119ebf002")
+		)
+		(instances
+			(project "InfiniteRecon"
+				(path "/4b53e0c9-94bf-49c7-970e-b079d561503a/e2fa78bb-d2d2-41e6-a454-933065003d74"
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
